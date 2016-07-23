@@ -1,13 +1,31 @@
-<ul class="social">
-  {% if site.github_username %}
-    <li>
-      {% include icon-github.html username=site.github_username %}
-    </li>
-  {% endif %}
+<div class="social">
 
-  {% if site.twitter_username %}
-    <li>
-      {% include icon-twitter.html username=site.twitter_username %}
-    </li>
-  {% endif %}
-</ul>
+  <h4>Más de mí en las redes</h4>
+  
+  <ul>
+    {% if site.github_username %}
+      <li>
+        {% include icon-github.html username=site.github_username %}
+      </li>
+    {% endif %}
+
+    {% if site.twitter_username %}
+      <li>
+        {% include icon-twitter.html username=site.twitter_username %}
+      </li>
+    {% endif %}
+
+    {% if site.youtube_username %}
+      <li>
+        {% include icon-twitter.html username=site.youtube_username %}
+      </li>
+    {% endif %}
+
+    {% if site.codepen_username %}
+      <li>
+        {% include icon-twitter.html username=site.codepen_username %}
+      </li>
+    {% endif %}
+  </ul>
+
+</div>
