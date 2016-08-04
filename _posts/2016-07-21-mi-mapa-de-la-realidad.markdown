@@ -1,28 +1,10 @@
 ---
 layout: post
-title:  "El observador observado"
+title:  "Mi mapa de la realidad"
 date:   2016-07-21 16:01:18 +0200
 categories: jekyll update proceso
-description: Explicando una web por medio de una web sobre como hago webs (y porqué)
+description: De cómo el Eneagrama cambió mi vida
 ---
-
-**Conceptos testing...**
-
-Aunque he creado mi propio generador de sitios estáticos con React.js, Node, Firebase, ES6, etc...
-He estado probando Roots y me he decidido finalmente por Jekyll.
-
-El motivo es que puedo enfocarme más en los contenidos sin tener que preocuparme del front-end.
-
-Según Teilhard, no sólo la vida, sino la materia y el pensamiento están también involucrados en el proceso de la evolución. De ahí que es necesario atribuirle a dicho proceso un sentido.
-
-El Eneagrama fue como el objeto mágico que el mentor da al heróe en los mitos antiguos para que supere las adversidades. Hay una relación directa entre el Eneagrama y "El viaje de Ulises" en la Odisea.
-
-**Principio de complejidad-conciencia**
-
-El sentido de la evolución, que involucra tanto la materia, como la vida y el pensamiento (o el espíritu), está comprendido en un principio descriptivo de la mayor generalidad: la tendencia hacia el logro de mayores niveles de complejidad y, simultáneamente, al logro de mayores niveles de conciencia.
-
-Ningún futuro evolutivo aguarda a la persona si no es en asociación con los demás
-
 
 **Somos personajes dentro de historias con capacidad para generar sentido.**
 Yo soy un héroe... como tú, como todos.
@@ -42,7 +24,44 @@ observar las cosas en su totalidad, en su verdadero contexto y aportar
 
 
 
+<b>Hay nueve principios en todo lo que existe, cada uno de esos principios contiene a su vez los otros ocho formando una estructura fractal.</b>
+<ol>
+  <li>Orden/Idealismo/Verdad/Justicia</li>
+  <li>Servicio/Altruismo/Bienestar</li>
+  <li>Éxito/Eficacia/Competencia</li>
+  <li>Creatividad/Belleza/Armonía/Arte</li>
+  <li>Ideas/Saber/Investigación/Información</li>
+  <li>Leyes/Cooperación/Confianza/Seguridad</li>
+  <li>Entusiasmo/Optimismo/Felicidad</li>
+  <li>Decisión/Fuerza/Verdad/Apertura</li>
+  <li>Conciliación/Tranquilidad/Paz/Equidad</li>
+</ol>
 
+<section>
+  <h1>Proceso</h1>
+  Investigo formalmente las ideas y estructuralmente la información
+   para que transmitan de forma creativa y en armonía.
+
+
+  <p>Creo en la autoorganización de los sistemas, en la sinapsis que relaciona las partes y en las sinergias que surgen. Trato de pensar, sentir, decir y hacer en coherencia. Básicamente el proceso es unir los puntos de forma fluida y natural.</p>
+
+  <dl>
+    <dt>DECIR</dt>
+    <dd>El enunciado. La pregunta. El Objetivo. Principio. La Tarea. Necesidad. El Problema. Origen. Tema. El Vacío a Llenar. La Historia. De lo que partes. El Nombre. Silencio.</dd>
+  </dl>
+  <dl>
+    <dt>SENTIR</dt>
+    <dd>Ideas. Conceptos. Estética. Observación. Ver. Voluntad. Foco. Conjunto. Sutil. Belleza. Esencia. Lo Sensible. Aroma. Esencia. Paisaje. Creatividad. Ilusión. Verdad. Espacio. Elevado. La Señal. Valores. Atención. Aire. Etéreo.</dd>
+  </dl>
+  <dl>
+    <dt>PENSAR</dt>
+    <dd>Técnica. Desarrollo. Plan. Motor. Discernimiento. Rumbo. Dirección. Criterio. Boceto. Rumbo. Relación. Estrategia. Mapa. Construir. Estructura. El sí y el no. Separar. Función. Herramienta. Movimiento. Las Partes. Entrenamiento. Juicio. Decisión. Motivación. Traducción. El plano. El filtro. Lo relativo. El Error. Orden. Contexto.</dd>
+  </dl>
+  <dl>
+    <dt>HACER</dt>
+    <dd>Sentido. Objeto. Producto. Talento. Originalidad. Cómo suena. Lo concreto. La experiencia en sí. La figura. Lo nuevo. El resultado. El chiste. Maduración. consolidación. El hecho. La acción. Mutación. La Respuesta. Comprensión. Lo único. El ahora. Materia. Improvisación. La moraleja.</dd>
+  </dl>
+</section>
 
 
 Todo está embebido en todo, es una analogía, todo es relación y es escalable.
@@ -55,13 +74,6 @@ Pero no sólo la vida, sino también la materia y el pensamiento están involucr
 
 
 y ha nutrido toda mi dialéctica interna.
-
-
-
-
-
-Disruptivo.
-Holista.
 
 No sé si será la crisis de los 40 o qué pero ahora estoy en un momento de cambio brutal en mi vida. Integracion de lo aprendido, holismo, trabajar en red, aprender a hablar...
 

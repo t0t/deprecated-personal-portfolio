@@ -1,3 +1,7 @@
 .social {
-  background-color: green;
+  // background-color: green;
+  li {
+    margin-left: $spacing-unit;
+    margin-right: $spacing-unit;
+  }
 }

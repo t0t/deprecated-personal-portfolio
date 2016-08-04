@@ -8,10 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-.active {
-  background-color: red;
-}
-
 /**
  * Basic styling
  */
@@ -36,7 +32,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit * 2;
 }
 
 
@@ -85,6 +81,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    text-align: center;
 }
 
 
@@ -97,16 +94,32 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color;
     }
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        // text-decoration: underline;
     }
 }
 
+p, dl {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+dl {
+  padding: $spacing-unit;
+  background-color: $brand-color;
+  color: $grey-color-light;
+}
+dt {
+  margin-top: $spacing-unit;
+  &:first-child {
+    margin-top: 0;
+  }
+}
 
 /**
  * Blockquotes
@@ -149,28 +162,6 @@ pre {
         border: 0;
         padding-right: 0;
         padding-left: 0;
-    }
-}
-
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
     }
 }
 

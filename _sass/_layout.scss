@@ -2,10 +2,17 @@
  * Site header
  */
 .site-header {
-    min-height: 56px;
+  display: flex;
+  align-items: center;
+  min-height: 56px;
 }
 
 .site-title {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: $spacing-unit * 2;
     &,
     &:visited {
         color: $grey-color-dark;
@@ -13,6 +20,9 @@
 }
 
 .site-nav {
+
+  // flex: 1 50%;
+  margin-right: $spacing-unit;
 
     .menu-icon {
         display: none;
@@ -63,6 +73,7 @@
         &:hover .trigger {
             display: block;
             padding-bottom: 5px;
+            cursor: pointer;
         }
 
         .page-link {
@@ -78,11 +89,22 @@
 }
 
 
-
 /**
  * Site footer
  */
-.site-footer {}
+.site-footer {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: $spacing-unit;
+  ul {
+    list-style: none;
+    margin-left: 0;
+    display: flex;
+  }
+  li {
+
+  }
+}
 
 .footer-heading {}
 
@@ -90,13 +112,6 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
 }
 
 
@@ -107,7 +122,18 @@
 @include media-query($on-palm) {
 }
 
-
+/**
+ * Page section
+ */
+section {
+  padding-top: $spacing-unit * 2;
+  padding-bottom: $spacing-unit * 2;
+  background-color: #f3f3f3;
+}
+.section__title {
+  text-align: center;
+  padding-bottom: $spacing-unit * 2;
+}
 
 /**
  * Page content

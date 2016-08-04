@@ -10,8 +10,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sergiofores.es" # the base hostname & protocol for your site
 twitter_username: t0tinspire
 github_username:  t0t
-codepen_username:  t0t
-youtube_username:  sergeiforesraga
 
 # Minification
 sass:
