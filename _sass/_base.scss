@@ -62,8 +62,12 @@ figcaption {
 /**
  * Lists
  */
+ul {
+  // list-style: none;
+}
+
 ul, ol {
-    margin-left: $spacing-unit;
+    margin-left: $spacing-unit * 2;
 }
 
 li {
@@ -103,19 +107,22 @@ a {
 }
 
 // max width
-p, dl, h5, h4, h3, h2, h1, ul {
+p, dl, h5, h4, h3, h2, h1 {
   max-width: 650px;
   margin-right: auto;
   margin-left: auto;
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
 }
 
 dl {
   padding: $spacing-unit;
   background-color: $brand-color;
-  color: $color-grey-light;
+  // color: $color-grey-light;
 }
 dt {
   margin-top: $spacing-unit;
+  font-weight: bold;
   &:first-child {
     margin-top: 0;
   }

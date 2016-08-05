@@ -3,19 +3,19 @@
   justify-content: center;
   flex-wrap: wrap;
   background-color: $color-white;
-  margin: $spacing-unit;
-  padding: $spacing-unit;
+  // margin: $spacing-unit;
+  // padding: $spacing-unit;
   max-width: 100%;
 
     &__item {
       list-style: none;
       flex: 1 500px;
-      margin: $spacing-unit;
+      // margin: $spacing-unit;
     }
 
     &-title {
       text-align: left;
-      text-transform: uppercase;
+      // text-transform: uppercase;
       font-weight: bold;
       margin-bottom: $spacing-unit / 2;
     }
