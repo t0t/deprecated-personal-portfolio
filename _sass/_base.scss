@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit * 2;
+    margin-bottom: $spacing-unit * 1.5;
 }
 
 
@@ -118,7 +118,6 @@ p, dl, h5, h4, h3, h2, h1 {
 dl {
   padding: $spacing-unit;
   background-color: $brand-color;
-  // color: $color-grey-light;
 }
 dt {
   margin-top: $spacing-unit;
@@ -127,17 +126,26 @@ dt {
     margin-top: 0;
   }
 }
+ul {
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /**
  * Blockquotes
  */
+
 blockquote {
     color: $color-grey;
-    border-left: 4px solid $color-grey-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+    border-left: $spacing-unit solid $color-grey-light;
+    padding-left: $spacing-unit * 2;
+    font-size: $base-font-size;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    // letter-spacing: -1px;
+    // font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
