@@ -1,7 +1,8 @@
 .social {
-  // background-color: green;
+  flex-basis: 300px;
+  display: flex;
   li {
-    margin-left: $spacing-unit;
-    margin-right: $spacing-unit;
+    margin-left: $spacing-unit / 2;
+    margin-right: $spacing-unit / 2;
   }
 }

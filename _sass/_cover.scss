@@ -1,0 +1,14 @@
+.Cover {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 700px;
+  padding-top: 0;
+  // color: $color-white;
+  background-color: $brand-color;
+  align-items: center;
+
+  &__title {
+    font-size: 50px;
+  }
+}

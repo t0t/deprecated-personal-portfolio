@@ -24,7 +24,6 @@ body {
 }
 
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -103,7 +102,8 @@ a {
     }
 }
 
-p, dl {
+// max width
+p, dl, h5, h4, h3, h2, h1, ul {
   max-width: 650px;
   margin-right: auto;
   margin-left: auto;
@@ -112,7 +112,7 @@ p, dl {
 dl {
   padding: $spacing-unit;
   background-color: $brand-color;
-  color: $grey-color-light;
+  color: $color-grey-light;
 }
 dt {
   margin-top: $spacing-unit;
@@ -125,8 +125,8 @@ dt {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $color-grey;
+    border-left: 4px solid $color-grey-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -145,7 +145,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $color-grey-light;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -193,7 +193,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            // fill: $color-grey;
         }
     }
 }

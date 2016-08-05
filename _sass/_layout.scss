@@ -2,6 +2,8 @@
  * Site header
  */
 .site-header {
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
   min-height: 56px;
@@ -11,11 +13,10 @@
   font-size: 35px;
   font-weight: bold;
   line-height: 1.2;
-  text-align: center;
   margin-bottom: $spacing-unit * 2;
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $color-grey-dark;
     }
 }
 
@@ -24,25 +25,31 @@
   // flex: 1 50%;
   margin-right: $spacing-unit;
 
-    .menu-icon {
-        display: none;
+  .menu-icon {
+      display: none;
+  }
+
+  .trigger {
+    a {
+      margin: 0 10px;
     }
+  }
 
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+  .page-link {
+      color: $text-color;
+      line-height: $base-line-height;
 
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
+      &:not(:last-child) {
+          margin-right: 20px;
+      }
+  }
 
-    @include media-query($on-palm) {
+  @include media-query($on-palm) {
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $color-grey-light;
         border-radius: 5px;
         text-align: right;
 
@@ -60,7 +67,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $color-grey-dark;
                 }
             }
         }
@@ -94,15 +101,14 @@
  */
 .site-footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: $spacing-unit;
   ul {
     list-style: none;
     margin-left: 0;
+    margin-bottom: 0;
     display: flex;
-  }
-  li {
-
   }
 }
 
@@ -132,7 +138,7 @@ section {
 }
 .section__title {
   text-align: center;
-  padding-bottom: $spacing-unit * 2;
+  // padding-bottom: $spacing-unit * 2;
 }
 
 /**
@@ -147,7 +153,6 @@ section {
 }
 
 .post-list {
-    margin-left: 0;
     list-style: none;
 
     > li {
@@ -157,7 +162,7 @@ section {
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $color-grey;
 }
 
 .post-link {
