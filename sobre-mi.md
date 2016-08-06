@@ -6,7 +6,10 @@ permalink: /sobre-mi/
 ---
 
 <section class="Card">
+  <p>Mi profesión consiste en ayudar a parir ideas en internet. Soy una especie de <b>doula digital.</b> Tengo una formación específica suficiente para abarcar conocimientos sobre programación, prototipado, diseño, creatividad, herramientas y procesos en Agencias digitales, Startups y equipos ágiles.</p>
 
+  <p>Es labor fundamental de un <b>doula digital</b> hacer él mismo el trabajo y también derivar al profesional más adecuado en cada situación y nunca caer en intrusismo con profesionales más especializados. Es labor de un doula digital acelerar procesos y sinergias, proponer soluciones reales unidas a la tecnica y dinamizar proyectos web con criterio.</p>
+  
   <div class="Card__item">
     <h1 class="Card-title">
       Mi historia
@@ -50,7 +53,9 @@ permalink: /sobre-mi/
     <dd>Transparencia, sinceridad y confianza.</dd>
     <dd>Abraza también el error y la incertidumbre</dd>
     <dd>Di, Siente, Piensa y Haz en coherencia</dd>
+    <dd>Del dicho al hecho había un trecho, ahora es todo ya.</dd>
     <dd>Invierte tiempo y dinero proporcionalmente a tus beneficios reales.</dd>
+    <dd>Deja que te arañen un poco ahora las dificultades cuando aún son pequeñas para que no te coman mañana</dd>
     <dd>Cuida el contenido tanto como el contenedor.</dd>
     <dd>Lo que quieres ya lo tienes. Ahora vamos a mejorarlo progresivamente.</dd>
     <dd>Un prototipo te permite demostrar la validez de tu idea y poder ver y medir el alcance, el atractivo real de lo que quieres decir.</dd>
