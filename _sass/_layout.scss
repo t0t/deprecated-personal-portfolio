@@ -160,9 +160,11 @@ section {
 
 .post-list {
     list-style: none;
+    text-align: center;
 
     > li {
         margin-bottom: $spacing-unit;
+        min-height: 200px;
     }
 }
 

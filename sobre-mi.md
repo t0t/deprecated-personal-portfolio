@@ -1,13 +1,18 @@
 ---
 layout: page
-title: Sobre-mí
+title: Sobre mí
 navigation_weight: 4
 permalink: /sobre-mi/
 ---
 
 <article>
 
-  <h2>Mi oficio consiste en facilitar el parto de proyectos en internet.</h2>
+  <h2>Hola, mi nombre es Sergio Forés y mi oficio consiste en facilitar el parto de proyectos en internet.</h2>
+
+  <figure class="Figure-small">
+    <img src="/images/estudio2.jpg" alt="SF Studio">
+    <figcaption class="Figure-caption-h">Trabajando en el estudio</figcaption>
+  </figure>
 
   <p>Tengo una formación específica de frontend, prototipado, diseño, arte, herramientas y metodologías, etc.</p>
 
