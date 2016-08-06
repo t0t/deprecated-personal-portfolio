@@ -101,10 +101,15 @@
  * Site footer
  */
 .site-footer {
+
+  height: 200px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
+  padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
+
   ul {
     list-style: none;
     margin-left: 0;
