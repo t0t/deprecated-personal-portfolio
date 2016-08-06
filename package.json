@@ -1,0 +1,23 @@
+{
+  "name": "sergiofores.es",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t0t/sergiofores.es.git"
+  },
+  "author": "Sergio Fores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t0t/sergiofores.es/issues"
+  },
+  "homepage": "https://github.com/t0t/sergiofores.es#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7"
+  }
+}
