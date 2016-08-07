@@ -204,6 +204,26 @@ pre {
 
 
 /**
+ * Forms
+ */
+
+textarea,
+input {
+  border: none;
+  font-size: $base-font-size;
+  padding: 5px;
+}
+
+input {
+
+}
+
+input[type="submit"] {
+  background-color: $brand-color;
+}
+
+
+/**
  * Clearfix
  */
 %clearfix {

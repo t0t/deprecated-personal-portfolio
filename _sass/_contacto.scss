@@ -1,3 +1,7 @@
 .contact {
-  // background-color: pink;
+  padding: $spacing-unit;
+  background-color: $brand-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
