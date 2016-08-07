@@ -1,7 +1,6 @@
 .Card {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  // display: flex;
+  // justify-content: center;
   // background-color: $color-white;
   margin: 0;
   // margin-right: 10px;
@@ -10,19 +9,29 @@
 
     &__item {
       list-style: none;
-      flex: 1 500px;
+      display: flex;
+      flex-wrap: wrap;
+      // border: 1px solid red;
+      padding: $spacing-unit;
+      // flex: 1 500px;
       // margin: $spacing-unit;
     }
 
-    &-title {
-      // text-align: left;
-      // text-transform: uppercase;
-      font-weight: bold;
-      margin-bottom: $spacing-unit / 2;
-    }
-    &-subtitle {
-      color: $color-grey;
-      font-size: $base-font-size;
-      margin-bottom: $spacing-unit / 2;
-    }
+      &-title {
+        flex: 1 100%;
+        font-weight: bold;
+        margin-bottom: $spacing-unit / 2;
+      }
+      &-subtitle {
+        color: $color-grey;
+        font-size: $base-font-size;
+        margin-bottom: $spacing-unit / 2;
+      }
+      &-description {
+        flex: 1 50%;
+      }
+      &-note {
+        // padding-top: $spacing-unit;
+        flex: 1 300px;
+      }
 }

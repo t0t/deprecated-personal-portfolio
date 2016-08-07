@@ -5,10 +5,10 @@ navigation_weight: 2
 permalink: /blog/
 ---
 
-<ul class="post-list Card">
+<ul class="post-list">
   {% for post in site.posts %}
-    <li class="Card__item">
-      <a class="post-link Card-title" href="{{ post.url | prepend: site.baseurl }}">
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
         {{ post.title }}
       </a>
       <span class="post-meta">

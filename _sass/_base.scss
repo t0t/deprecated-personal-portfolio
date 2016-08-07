@@ -127,18 +127,27 @@ p, dl, h5, h4, h3, h2, h1 {
 dl {
   padding: $spacing-unit;
   background-color: $brand-color;
+  // list-style: disc;
 }
 dt {
   margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit / 2;
   font-weight: bold;
   &:first-child {
     margin-top: 0;
   }
 }
+dd {
+  display: list-item;
+  list-style-type: circle;
+  list-style-position: inside;
+  // padding-left: $spacing-unit / 2;
+  line-height: 1.8;
+}
 ul {
-  max-width: 300px;
-  margin-right: auto;
-  margin-left: auto;
+  // max-width: 300px;
+  // margin-right: auto;
+  // margin-left: auto;
 }
 
 /**
