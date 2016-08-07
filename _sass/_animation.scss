@@ -1,21 +1,11 @@
 @keyframes tot {
-  0% {
-    background-color: green;
-	  transform: translate(0px, 0px);
+  from {
+    background-color: $brand-color;
+	  transform: rotate(0deg) translateX(100px) rotate(-0deg);
+    transform-origin: 0px;
 	}
-  25% {
-	  background-color: blue;
-    transform: translate(0px, 150px);
-	}
-  50% {
-	  background-color: red;
-    transform: translate(150px, 150px);
-  }
-  75% {
-    background-color: yellow;
-    transform: translate(150px, 0px);
-	}
-  100% {
-    background-color: green;
+  to {
+    background-color: red;
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
 	}
 }

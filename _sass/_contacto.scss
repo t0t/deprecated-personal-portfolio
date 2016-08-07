@@ -1,7 +1,28 @@
-.contact {
+.Contact {
   padding: $spacing-unit;
   background-color: $brand-color;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
+
+  &__title {
+    // flex: 1 100%;
+    color: darken($brand-color, 25);
+  }
+  &__form {
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 100%;
+  }
+  &__textarea {
+    flex: 0 600px;
+  }
+  &__submit {
+    // flex-basis: 100%;
+    background-color: darken($brand-color, 3);
+  }
 }

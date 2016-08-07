@@ -126,7 +126,7 @@ p, dl, h5, h4, h3, h2, h1 {
 
 dl {
   padding: $spacing-unit;
-  background-color: $brand-color;
+  border: 1px solid $brand-color;
   // list-style: disc;
 }
 dt {
@@ -215,12 +215,19 @@ pre {
 /**
  * Forms
  */
-
+form {
+  // display: inherit;
+}
 textarea,
 input {
   border: none;
   font-size: $base-font-size;
-  padding: 5px;
+  padding: 15px;
+}
+
+textarea {
+  min-height: 100px;
+  margin-top: $spacing-unit;
 }
 
 input {
@@ -228,7 +235,15 @@ input {
 }
 
 input[type="submit"] {
-  background-color: $brand-color;
+
+  margin-top: $spacing-unit;
+  padding: $spacing-unit / 2;
+  
+  &:hover {
+    cursor: pointer;
+    background-color: $text-color;
+    color: $brand-color;
+  }
 }
 
 

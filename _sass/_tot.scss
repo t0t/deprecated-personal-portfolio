@@ -5,16 +5,21 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: $spacing-unit;
-  background-color: $color-grey-light;
-  // border-radius: 50%;
+  // background-color: $color-grey-light;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid $text-color;
 }
   .Tot__pointer {
-    // position: absolute;
-    width: 50px;
-    height: 50px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
     animation-name: tot;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: steps(4);
     // animation-direction: normal;
     animation-duration: 2s;
     background-color: $text-color;

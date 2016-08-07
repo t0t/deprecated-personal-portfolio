@@ -1,15 +1,14 @@
-<div class="contact">
+<div class="Contact">
 
-  <p>
-    Deja tu mensaje aquí:
+    <h2 class="Contact__title">Dime algo</h2>
     <!-- <a href="mailto:{{ site.email }}">Escríbeme</a> -->
 
-    <form id="contactform" method="POST">
+    <form class="Contact__form" id="contactform" method="POST">
       <input type="text" name="name" placeholder="Nombre">
       <input type="email" name="_replyto" placeholder="Email">
       <input type="hidden" name="_subject" value="sergiofores.es contact form" />
-      <textarea name="message" placeholder="Mensaje"></textarea>
-      <input type="submit" value="Send">
+      <textarea name="message" placeholder="Mensaje" class="Contact__textarea"></textarea>
+      <input type="submit" value="Enviar" class="Contact__submit">
       <input type="hidden" name="_next" value="//sergiofores.es/" />
       <input type="text" name="_gotcha" style="display:none" />
     </form>
@@ -18,5 +17,5 @@
       var contactform =  document.getElementById('contactform');
       contactform.setAttribute('action', '//formspree.io/' + 'sergiofores' + '@' + 'gmail' + '.' + 'com');
     </script>
-  </p>
+
 </div>
