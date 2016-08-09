@@ -19,7 +19,7 @@ permalink: /sobre-mi/
 
   <p>ICOP, Integrador Creativo de Objetos y Procesos, es el titulo con el que he bautizado la actividad a la que me dedico.</p>
 
-  <p>Soy un profesional que ha migrado entre varios entornos de conocimiento a lo largo de mi vida y tuve la capacidad de integrarlos en una sola <a href="/index.html">solución práctica</a> que genera más valor para mi mismo y para las personas con las que trabajo.</p>
+  <p>La necesidad de una reinvención creativa viene dada por un mundo en constante cambio. Las situaciones nuevas fuerzan a respuestas y soluciones nuevas antes desconocidas. Soy un profesional que ha migrado entre varios entornos de conocimiento a lo largo de mi vida y tuve la capacidad de integrarlos en una sola <a href="/index.html">solución práctica</a> que genera más valor para mi mismo y para los demás.</p>
 
   <p>Como ICOP, estoy orientado a equipos de trabajo pequeños, emprendedores o startups con un alto nivel de incertidumbre y/o poco capital inicial. Me he preparado especialmente para adaptarme a cualquier escenario y responder rápidamente ante cualquier tipo de problema desde el principio.</p>
 
@@ -29,7 +29,7 @@ permalink: /sobre-mi/
 
   <p>Conozco y sobrevuelo el lenguaje emocional y subjetivo pero también la parte técnica del proyecto web, todo a la vez. No soy un especialista en nada pero he profundizado lo suficiente en el medio como para tener un criterio valioso y una perspectiva global de todas sus partes en ciertos tipos de proyectos.</p>
 
-  <ul>
+  <ul class="list">
 
     <li>Se adueña de la responsabilidad de diseñar y construir su destino.</li>
 
@@ -68,7 +68,7 @@ permalink: /sobre-mi/
 
   <h2>Frases que me repito cada dia</h2>
 
-  <ul>
+  <ul class="list">
     <li>El talento crece a medida que se comparte</li>
     <li>No importa tanto cuánto sabes, sino cómo lo usas.</li>
     <li>El producto es el proceso</li>
