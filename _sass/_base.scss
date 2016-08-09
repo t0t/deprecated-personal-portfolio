@@ -21,6 +21,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    padding-top: $spacing-unit*4;
 }
 
 
@@ -238,11 +239,11 @@ input[type="submit"] {
 
   margin-top: $spacing-unit;
   padding: $spacing-unit / 2;
-  
+
   &:hover {
     cursor: pointer;
     background-color: $text-color;
-    color: $brand-color;
+    color: $color-cool;
   }
 }
 

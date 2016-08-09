@@ -3,8 +3,7 @@ name: Sergio Forés
 title: Sergio Forés
 version: v.0.6
 email: sergiofores@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Desarrollador y diseñador de proyectos
+description: Desarrollador y diseñador de proyectos
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sergiofores.es" # the base hostname & protocol for your site
 twitter_username: t0tinspire
@@ -15,16 +14,28 @@ linkedin_username: sergiofores
 
 # Minification
 sass:
+  # sass_dir: /assets/_sass
   style: compressed
 
 collections:
   works:
     output: true
 
+permalink: /:title/
+
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
 
 exclude:
   - package.json
   - node_modules
   - gulpfile.js
+  - CNAME
