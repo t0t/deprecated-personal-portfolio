@@ -7,7 +7,7 @@ permalink: /sobre-mi/
 
 <article>
 
-  <h2>Hola, mi nombre es Sergio Forés y mi oficio consiste en facilitar el parto de proyectos-bebé en internet.</h2>
+  <h2>Hola, mi nombre es Sergio Forés y soy un ICOP </h2>
 
   <figure class="Figure-small">
     <img src="/images/estudio2.jpg" alt="SF Studio">
@@ -15,66 +15,86 @@ permalink: /sobre-mi/
   </figure>
 
 
-  <h2>Rasgos característicos</h2>
+  <h2>Qué es un ICOP</h2>
 
-  <ul>
-    <li><b>Creativo</b>, colaborador, motivado, innovador. No tengo la mentalidad de la escasez, se que el talento crece a medida que se comparte. No dudo en compartir todo lo que se para aportar valor. Utilizo la información abierta y libremente para nutrirme de ella y crecer. Altamente inventivo, intuitivo, capaz de producir ideas.</li>
+  <p>ICOP, Integrador Creativo de Objetos y Procesos, es el titulo con el que he bautizado la actividad a la que me dedico.</p>
 
-    <li><b>Estoy alineado con las nuevas tecnologías.</b> Comprendo cómo y porqué funcionan. Lo que hace que mi curva de aprendizaje sea francamente alta, aprendo y asimilo rápido sin necesidad expresa de ayuda. Capaz de utilizar herramientas para resolver diferentes problemas.</li>
+  <p>Soy un profesional que ha migrado entre varios entornos de conocimiento a lo largo de mi vida y tuve la capacidad de integrarlos en una sola <a href="/index.html">solución práctica</a> que genera más valor para mi mismo y para las personas con las que trabajo.</p>
 
-    <li><b>Me adapto al cambio</b> Soy autodidacta y altamente comprometido con el aprendizaje contínuo. Capaz de aprender y desaprender con facilidad en función de mis inquietudes.</li>
-
-    <li><b>Generador de ideas</b> y nuevos conocimientos. Dispongo de recursos para salir adelante en cualquier situación y si no los tengo se buscarlos.</li>
-
-    <li><b>Acepto el fracaso</b> como un “mal” necesario para mi propio crecimiento. Comprendo que la única forma de aprender es haciendo y experimentando. Me equivoco mucho, y me asaltan miedos, conviviendo con ellos es como los supero.</li>
-
-    <li><b>No entiendo de fronteras.</b> Mi concepción del entorno no conoce fronteras. No entiendo de límites geográficos, políticos, sociales, económicos, culturales...</li>
-
-    <li><b>Siempre conectado</b>. Mi mundo está formado por muchos mundos.</li>
-
-  </ul>
-
-
-  <h2>Mi historia</h2>
-
-  <p>Un día tomé conciencia de la importancia de decir y hablar a los demás y de lo mal que lo había hecho toda mi vida... Salí de mi zona de confort y me empujé a pronunciarme, exponerme, saber quien soy. Inicié un viaje de vuelta al mundo, cansado y magullado por las equivocaciones. He recorrido territorios áridos, luminosos, oscuros y también extraordinarios que me han ido refactorizando. Vuelvo más humilde pero mucho más libre. Integrarme en la tribu, ser más íntegro. Reunir los pedazos de oro que encontré aquí muy lejos y decírtelos para que te sirvan. Ese es mi reto y mi historia.</p>
-
-  <h2>Quien soy</h2>
-
-  <p>Un puente entre varias cosas. Una mezcla de diseñador gráfico/web, front-end, artista plástico. Un mutante. Lo que hay en medio de A y B. El eremita que volvió de la cueva. Disruptivo. Cuestionador. Investigador. Un observador. Me equivoco mucho. No soy experto en nada. A veces acierto. Padre de 2 seres humanos. Me recargo mirando el sol al atardecer. Me actualizo cada segundo. Soy lo que soy capaz de dar. Buscador de tesoros y llaves. Creo en la sincronicidad, la energía ilimitada, las sinérgias constantes entre las personas y las cosas. Un prototipo que hace prototipos. Un tipo extraordinariamente normal. Alguien que ve lo que sobra. Un Eneatipo 5 con ala 6 comprometido con el desarrollo de su propio talento para aportar a los demás. Soy parte de lo que está siendo aquí y ahora ya.</p>
-
-  <h2>Lo que hago</h2>
-
-  <p>Uso mi ordenador para hacer cosas que una maquina no puede hacer. Construyo prototipos y sitios web que evolucionan en un proceso vivo. Ayudo a emprendedores uniendo ideas con conocimientos prácticos. Estoy empezando con mi marca personal, venciendo el miedo a exponerme en público, trazandome, corrigiendome, ordenandome. Trato de pensar, decir, sentir y hacer en coherencia. Me gusta poner en práctica percepciones insólitas y hacer que ello suceda. Hacer camino al andar y andar liviano, soltando lo que sobra. Buscar el "Esto correcto" aquí y ahora. Hago lo que me lleva a donde quiero ir. Cocino a fuego lento pero con substancia.</p>
-
-  <h2>Los porqués</h2>
-
-  <p>Porque puedo hacer mejorar en algo las cosas. Porque me gusta crear para completarme, llenarme, realizarme, cumplir con mi función básica y mi propósito de vida. Porque me alimento del sentido y de lo que percibo como verdadero. Me equilibra accionarme, moverme, decirte, compartir. Porque disfruto viendo la belleza en las cosas y crezco superando obstaculos, porque pierdo y gano mil veces al dia, porque eso es estar vivo. Porque no sé nada y eso estimula mi curiosidad.</p>
-
-  <dl>
-    <dt>Cosas que valoro</dt>
-    <dd>El producto es el proceso</dd>
-    <dd>El conocimiento personal, el conocimiento adquirido.</dd>
-    <dd>Solo hay que rendir cuentas a la brillantez del resultado.</dd>
-    <dd>Haz esto, descubre que te equivocaste, y entonces ve y hazlo bien, y luego más que bien.</dd>
-    <dd>Quema el manual, haz lo que te lleve a donde quieres ir.</dd>
-    <dd>Crea el producto/servicio que tú mismo usarías.</dd>
-    <dd>Focalizate en el todo que es la experiencia de lo que ya es, ahora.</dd>
-    <dd>Todos tenemos una historia, todos tenemos una motivación, una razón por la que hacemos lo que hacemos.</dd>
-    <dd>No me creas, ponme a prueba.</dd>
-    <dd>Transparencia, sinceridad y confianza.</dd>
-    <dd>Abraza también el error y la incertidumbre</dd>
-    <dd>Di, Siente, Piensa y Haz en coherencia</dd>
-    <dd>Del dicho al hecho había un trecho pero ahora es todo ya.</dd>
-    <dd>Invierte tiempo y dinero proporcionalmente a tus beneficios reales.</dd>
-    <dd>Deja que te arañen un poco ahora las dificultades cuando aún son pequeñas para que no te coman mañana.</dd>
-    <dd>Cuida el contenido tanto como el contenedor.</dd>
-    <dd>Lo que quieres ya lo tienes. Ahora vamos a mejorarlo progresivamente.</dd>
-    <dd>Un prototipo te permite demostrar la validez de tu idea y poder ver y medir el alcance, el atractivo real de lo que quieres decir.</dd>
-    <dd>No supongas teorías, constata hechos.</dd>
-    <dd>Lo mejor a lo que podemos aspirar es ser lo que ya somos (pero de mejor manera)</dd>
-  </dl>
+  <p>Como ICOP, estoy orientado a equipos de trabajo pequeños, emprendedores o startups con un alto nivel de incertidumbre y/o poco capital inicial. Me he preparado especialmente para adaptarme a cualquier escenario y responder rápidamente ante cualquier tipo de problema desde el principio.</p>
 
   {% include skills.html %}
 
+  <h2>Rasgos de un ICOP</h2>
+
+  <p>Conozco y sobrevuelo el lenguaje emocional y subjetivo pero también la parte técnica del proyecto web, todo a la vez. No soy un especialista en nada pero he profundizado lo suficiente en el medio como para tener un criterio valioso y una perspectiva global de todas sus partes en ciertos tipos de proyectos.</p>
+
+  <ul>
+
+    <li>Se adueña de la responsabilidad de diseñar y construir su destino.</li>
+
+    <li>Tiene una visión de contribución, ya que sabe que la mejor manera de lograr lo que quiere es ayudando a otros a lograr lo que quieren.</li>
+
+    <li>Invierte constantemente tiempo y energía en su desarrollo y fortalecimiento personal.</li>
+
+    <li>Actúa con la convicción de que el mayor poder de influencia sobre el éxito de otros se ejerce en el modelaje del suyo propio.</li>
+
+    <li>Parte de la base que él es mucho más de lo que hasta ahora a expresado como ser humano.</li>
+
+    <li>Está consciente que en cada instante puede elegir ser víctima de las circunstancias o creador de oportunidades; y siempre elige actuar sobre la segunda alternativa.</li>
+
+    <li>Comprende al éxito como un camino de paternidad compartida: con los principios universales, con la vida, con los otros, con la naturaleza.</li>
+
+    <li>Entiende al éxito no como un destino, sino como un proceso de vida.</li>
+
+    <li>Es creativo, altamente inventivo, intuitivo, capaz de producir ideas disruptivas e innovadoras. Con sensibilidad y talento artístico.</li>
+
+    <li>Colaborativo. Sabe que no está sólo y que la vida es un juego en equipo.</li>
+
+    <li>Consciente de sus limitaciones. Pide ayuda cuando la necesita. Dispone de recursos para salir adelante en cualquier situación y si no los tiene sabe buscarlos. Reconoce que su poder no está en el ejercicio del control sino en la libertad de responder constructivamente ante cualquier circunstancia.</li>
+
+    <li>Alineado con las nuevas tecnologías. Comprende cómo y porqué funcionan muchas de ellas. Con una curva de aprendizaje alta, aprende y asimila rápido sin necesidad expresa de ayuda. Capaz de utilizar herramientas para resolver diferentes problemas.</li>
+
+    <li>Adaptable al cambio. Autodidacta y altamente comprometido con el aprendizaje contínuo. Capaz de aprender y desaprender con facilidad en función de sus inquietudes.</li>
+
+
+    <li>Acepta el fracaso como un “mal” necesario para su propio crecimiento. Comprende que la única forma de aprender es haciendo y experimentando. Se equivoca y le asaltan miedos, pero los transmuta y los supera.</li>
+
+    <li>No entiende de fronteras. Su concepción del entorno no conoce fronteras. No entiende de límites geográficos, políticos, sociales, económicos, culturales...</li>
+
+    <li>Siempre conectado. Su mundo está formado por muchos mundos sin importar su contexto.</li>
+
+  </ul>
+
+  <h2>Frases que me repito cada dia</h2>
+
+  <ul>
+    <li>El talento crece a medida que se comparte</li>
+    <li>No importa tanto cuánto sabes, sino cómo lo usas.</li>
+    <li>El producto es el proceso</li>
+    <li>El conocimiento personal, el conocimiento adquirido.</li>
+    <li>Solo hay que rendir cuentas a la brillantez del resultado.</li>
+    <li>Haz esto, descubre que te equivocaste, y entonces ve y hazlo bien, y luego más que bien.</li>
+    <li>Quema el manual, haz lo que te lleve a donde quieres ir.</li>
+    <li>Crea el producto/servicio que tú mismo usarías.</li>
+    <li>Focalizate en el todo que es la experiencia de lo que ya es, ahora.</li>
+    <li>Todos tenemos una historia, todos tenemos una motivación, una razón por la que hacemos lo que hacemos.</li>
+    <li>No me creas, ponme a prueba.</li>
+    <li>Transparencia, sinceridad y confianza.</li>
+    <li>Abraza también el error y la incertidumbre</li>
+    <li>Di, Siente, Piensa y Haz en coherencia</li>
+    <li>Del dicho al hecho había un trecho pero ahora es todo ya.</li>
+    <li>Invierte tiempo y dinero proporcionalmente a tus beneficios reales.</li>
+    <li>Deja que te arañen un poco ahora las dificultades cuando aún son pequeñas para que no te coman mañana.</li>
+    <li>Cuida el contenido tanto como el contenedor.</li>
+    <li>Lo que quieres ya lo tienes. Ahora vamos a mejorarlo progresivamente.</li>
+    <li>Un prototipo te permite demostrar la validez de tu idea y poder ver y medir el alcance, el atractivo real de lo que quieres decir.</li>
+    <li>No supongas teorías, constata hechos.</li>
+    <li>Lo mejor a lo que podemos aspirar es ser lo que ya somos (pero de mejor manera)</li>
+  </ul>
+
+
 </article>
+
+
+{% include contact.html %}
