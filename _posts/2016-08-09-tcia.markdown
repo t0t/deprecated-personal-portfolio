@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "tot"
+title:  "TCIA"
 date:   2016-07-21 16:01:18 +0200
-categories: tot
-description: Decir, sentir, pensar y hacer en coherencia
+categories: tcia
+description: TCIA decir, sentir, pensar y hacer en coherencia
 ---
 
 {% include cover.html %}
@@ -74,7 +74,7 @@ description: Decir, sentir, pensar y hacer en coherencia
         </h1>
 
         <h2 class="Card-subtitle">
-          STORYTELLING. La semilla, Ésto, Pronunciar. Preguntar. Nombrar. Reconocer. Ser consciente. Integrar. Validar. Identidad. Presentar. El tema. Comunicar. FEEDBACK. La tribu.
+          TRANSMITIR. Storytelling. La semilla, Ésto, Pronunciar. Preguntar. Nombrar. Reconocer. Ser consciente. Integrar. Validar. Identidad. Presentar. El tema. Comunicar. Feedback. La tribu...
         </h2>
 
         <div class="Card-description">
@@ -102,7 +102,7 @@ description: Decir, sentir, pensar y hacer en coherencia
         </h1>
 
         <h2 class="Card-subtitle">
-          Potencial. Los sentidos. Posibilidades. Creatividad. Apertura. Asociación. Lucidez. Sinápsis. Lo sutil. Lo elevado. El descubrir. La Empatía. Ideal. Disociación. Disrupción. Desvelar. Sinceridad. Sueño. Ideas. Riqueza. Locura. Exploración. Percepción. Aroma. Difuso. Niebla. Sensación. Multiplicidad. Captar. Apreciar. Observar. Sensibilidad. Fantasía. Opciones. Mostrar.
+          CREATIVIDAD. Potencial. Los sentidos. Posibilidades. Apertura. Asociación. Lucidez. Sinápsis. Lo sutil. Lo elevado. El descubrir. La Empatía. Ideal. Disociación. Disrupción. Desvelar. Sinceridad. Sueño. Ideas. Riqueza. Locura. Exploración. Percepción. Aroma. Difuso. Niebla. Sensación. Multiplicidad. Captar. Apreciar. Observar. Sensibilidad. Fantasía. Opciones. Mostrar...
         </h2>
 
         <div class="Card-description">
@@ -132,7 +132,7 @@ description: Decir, sentir, pensar y hacer en coherencia
         </h1>
 
         <h2 class="Card-subtitle">
-          Filosofía. Lógica. Análisis. Pensamiento. Roles. Rumbo. Dirección. Estrategia. Decidir. Relación. Digerir. Procesar. Demostrar. Prototipar. Hipótesis. Estructurar. Criterio. Discernimiento. Juicio. Estructuras. Construcción. Separaración. Plan. Criba. Error. Sintetizar. el signo. Destilar. Introspección. Definición. Comparación. Proponer. Medir. Predisposición. Actitud. Semiología.
+          INTELIGENCIA. Filosofía. Lógica. Análisis. Pensamiento. Roles. Rumbo. Dirección. Estrategia. Decidir. Relación. Digerir. Procesar. Demostrar. Prototipar. Hipótesis. Estructurar. Criterio. Discernimiento. Juicio. Estructuras. Construcción. Separaración. Plan. Criba. Error. Sintetizar. el signo. Destilar. Introspección. Definición. Comparación. Proponer. Medir. Predisposición. Actitud. Semiología...
         </h2>
 
         <div class="Card-description">
@@ -159,7 +159,7 @@ description: Decir, sentir, pensar y hacer en coherencia
           Hacer
         </h1>
         <h2 class="Card-subtitle">
-          La Acción. La solución. El Ésto Correcto. Lo pragmático. Eficacia. Ejecutar. Ya!. Lo concreto. Sentido. Materia. El Objeto. Lo nuevo. Resultado. El Chiste. Comprensión. El hecho. Medir. Refinar. Utilidad. Subsistencia. Realidad. Aplicación. Contacto. La verdad. El Cambio.
+          ACCIÓN. La solución. El Ésto Correcto. Lo pragmático. Eficacia. Ejecutar. Ya!. Lo concreto. Sentido. Materia. El Objeto. Lo nuevo. Resultado. El Chiste. Comprensión. El hecho. Medir. Refinar. Utilidad. Subsistencia. Realidad. Aplicación. Contacto. La verdad. El Cambio...
         </h2>
 
         <div class="Card-description">
