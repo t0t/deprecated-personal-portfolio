@@ -335,6 +335,103 @@ section {
   padding-bottom: 2px;
   border-bottom: 1px solid black; }
 
+.Dsph__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-bottom: 50px; }
+
+.Dsph__item {
+  text-align: center;
+  background-color: #e06c75; }
+  .Dsph__item span {
+    padding: 10px;
+    display: inline-block;
+    background-color: #df6871; }
+
+.Dsph__decir {
+  background: url("/images/anim_decir.svg") 0 0 no-repeat;
+  width: 20em;
+  height: 30em;
+  -webkit-animation: anim 1s steps(6) infinite;
+          animation: anim 1s steps(6) infinite;
+  background-size: 120em 100%;
+  font-size: 15px; }
+
+.Dsph__sentir {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/98095/anim2_t0t_bg.svg") 0 0 no-repeat;
+  width: 20em;
+  height: 30em;
+  -webkit-animation: anim 1s steps(6) infinite;
+          animation: anim 1s steps(6) infinite;
+  background-size: 120em 100%;
+  font-size: 15px; }
+
+.Dsph__pensar {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/98095/anim2_t0t_bg.svg") 0 0 no-repeat;
+  width: 20em;
+  height: 30em;
+  -webkit-animation: anim 1s steps(6) infinite;
+          animation: anim 1s steps(6) infinite;
+  background-size: 120em 100%;
+  font-size: 15px; }
+
+.Dsph__hacer {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/98095/anim_t0t_bg.svg") 0 0 no-repeat;
+  width: 20em;
+  height: 30em;
+  -webkit-animation: anim 1s steps(6) infinite;
+          animation: anim 1s steps(6) infinite;
+  background-size: 120em 100%;
+  font-size: 15px; }
+
+.Tot {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-radius: 50%;
+  border: 1px solid black; }
+
+.Tot__pointer {
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  -webkit-animation-name: tot;
+          animation-name: tot;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps(4);
+          animation-timing-function: steps(4);
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  background-color: black;
+  border-radius: 50%; }
+
+@-webkit-keyframes anim {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -120em 0; } }
+
+@keyframes anim {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -120em 0; } }
+
 @-webkit-keyframes tot {
   from {
     background-color: blue;
@@ -565,38 +662,6 @@ section {
   .Card-note {
     -ms-flex: 1 300px;
         flex: 1 300px; }
-
-.Tot {
-  width: 200px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 25px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  border-radius: 50%;
-  border: 1px solid black; }
-
-.Tot__pointer {
-  text-align: center;
-  width: 25px;
-  height: 25px;
-  -webkit-animation-name: tot;
-          animation-name: tot;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps(4);
-          animation-timing-function: steps(4);
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  background-color: black;
-  border-radius: 50%; }
 
 .Contact {
   padding: 50px 25px;
