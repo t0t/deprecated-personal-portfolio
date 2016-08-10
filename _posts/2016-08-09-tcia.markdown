@@ -28,13 +28,13 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
     <p>Por fín la puerta de mi casa estaba abierta y yo quería decirlo todo. Empaqueté mis pensamientos, mis sentimientos y las cosas que había hecho en mi vida en palabras y esas palabras se fueron metiendo ellas solas en bolsas. Era pura sinapsis en movimiento. Pura creación desde un lugar hasta entonces inexplorado por mí, quizás por ser demasiado evidente.</p>
 
     <figure class="Figure-small">
-      <img src="/images/patron.png" alt="Boceto Tot">
+      <img src="/images/patron.png" alt="Boceto TCIA">
       <figcaption class="Figure-caption-h">Escribía una palabra y ella se colocaba sola en el grupo donde resonaba mejor.</figcaption>
     </figure>
 
     <p>Todo lo que pudiera yo imaginar encontraba abrigo en alguna de esas 4 nubes de palabras, fueron ellas solas autoorganizándose en una unidad con cuatro partes esenciales: Decir, Sentir, Pensar y Hacer. Al conectar con el decir también había conectado con el lugar que ello ocupa dentro de algo mucho más grande.</p>
 
-    <h2>¿Qué es Tot?</h2>
+    <h2>¿Qué es TCIA?</h2>
 
     <blockquote>
       “My life seemed to be a series of events and accidents. Yet when I look back I see a pattern.”
@@ -45,12 +45,12 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
     <p>Afortunadamente no es imprescindible ser un genio para conectar con la fuente de la creación, ni saber de cuántica, ni de física, ni de filosofía, disciplinas en las que soy un auténtico negado... sólo requerimos estar presentes y alerta, ser testigos de 4 fenómenos que están ocurriendo todo el tiempo.</p>
 
-    <p>Ser <i>ocurrente</i> no es más que dejar espacio para que <i>ocurra</i> lo que ya está ocurriendo. La creación, la evolución, lo nuevo, fluye como energía, <i>transcurre</i> en tí, en tus actos, en lo que produces. Tot es <i>alinearte</i> con el proceso, no <i>alienarte</i>. Formas parte de la creación, ¿cómo no vas a crear?, es imposible no hacerlo. ¿Quieres ser original? ve al origen.</p>
+    <p>Ser <i>ocurrente</i> no es más que dejar espacio para que <i>ocurra</i> lo que ya está ocurriendo. La creación, la evolución, lo nuevo, fluye como energía, <i>transcurre</i> en tí, en tus actos, en lo que produces. TCIA es <i>alinearte</i> con el proceso, no <i>alienarte</i>. Formas parte de la creación, ¿cómo no vas a crear?, es imposible no hacerlo. ¿Quieres ser original? ve al origen.</p>
 
-    <p>Tot es ir a la estructura misma de lo que es correcto; Decir, sentir, pensar y hacer cíclicamente y en coherencia.</p>
+    <p>TCIA es ir a la estructura misma de lo que es correcto; Decir, sentir, pensar y hacer cíclicamente y en coherencia.</p>
 
     <dl>
-      <dt>Minimanifiesto Tot</dt>
+      <dt>Minimanifiesto TCIA</dt>
       <dd>Todo és, ahora, aquí, ya.</dd>
       <dd>Todo está en sus partes. Patrón fractal.</dd>
       <dd>Itera: di, siente, piensa y haz por igual.</dd>
