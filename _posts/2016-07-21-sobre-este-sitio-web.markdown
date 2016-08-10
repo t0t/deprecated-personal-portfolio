@@ -15,5 +15,6 @@ Las ventajas de hacerlo así son:
 - No tengo que preocuparme demasiado del front-end.
 - Uso un lenguaje de marcado (Liquid)
 - Es simple y artesanal
+- He añadido Gulp al workflow con browserSync, watch...
 
 (Continuará...)

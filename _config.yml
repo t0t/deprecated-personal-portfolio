@@ -14,7 +14,7 @@ linkedin_username: sergiofores
 
 # Minification
 sass:
-  # sass_dir: /assets/_sass
+  sass_dir: _sass
   style: compressed
 
 collections:
