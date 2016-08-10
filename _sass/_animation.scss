@@ -1,82 +1,9 @@
-
-
-
-@mixin size($size) {
-	width: 20em;
-	height: 30em;
-	animation: anim 1s steps(6) infinite;
-	background-size: 120em 100%;
-  font-size: #{$size}px;
-}
-
-.Dsph__wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: $spacing-unit * 2;
-}
-
-.Dsph__item {
-	text-align: center;
-  background-color: $color-cool;
-	span {
-		padding: 10px;
-		display: inline-block;
-    background-color: darken($color-cool, 1);
-	}
-}
-
-.Dsph__decir {
-	background: url("/images/anim_decir.svg") 0 0 no-repeat;
-  @include size(15);
-}
-
-.Dsph__sentir {
-	background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/98095/anim2_t0t_bg.svg") 0 0 no-repeat;
-  @include size(15);
-}
-
-.Dsph__pensar {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/98095/anim2_t0t_bg.svg") 0 0 no-repeat;
-	@include size(15);
-}
-
-.Dsph__hacer {
-	background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/98095/anim_t0t_bg.svg") 0 0 no-repeat;
-  @include size(15);
-}
-
-
-
-.Tot {
-  // position: relative;
-  width: 200px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: $spacing-unit;
-  // background-color: $color-grey-light;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  border: 1px solid $text-color;
-}
-  .Tot__pointer {
-    text-align: center;
-    width: 25px;
-    height: 25px;
-    animation-name: tot;
-    animation-iteration-count: infinite;
-    animation-timing-function: steps(4);
-    // animation-direction: normal;
-    animation-duration: 2s;
-    background-color: $text-color;
-    border-radius: 50%;
+// animacion SVG
+@keyframes efecto-stroke-dashoffset {
+  100% {
+  stroke-dashoffset: 0;
   }
-
-
+}
 
 @keyframes anim {
 	0% {background-position: 0 0}
