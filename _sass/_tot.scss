@@ -1,7 +1,7 @@
 @mixin size($size) {
 	width: 20em;
 	height: 20em;
-	animation: anim .6s steps(6) infinite;
+	animation: anim .5s steps(6) infinite;
 	background-size: 120em 100%;
   font-size: #{$size}px;
 }
@@ -24,22 +24,22 @@
 
 .Dsph__decir {
 	background: url("/images/anim_decir.svg") 0 0 no-repeat;
-  @include size(10);
+  @include size(15);
 }
 
 .Dsph__sentir {
 	background: url("/images/anim_sentir.svg") 0 0 no-repeat;
-  @include size(20);
+  @include size(15);
 }
 
 .Dsph__pensar {
   background: url("/images/anim_pensar.svg") 0 0 no-repeat;
-	@include size(10);
+	@include size(15);
 }
 
 .Dsph__hacer {
 	background: url("/images/anim_hacer.svg") 0 0 no-repeat;
-  @include size(10);
+  @include size(15);
 }
 
 

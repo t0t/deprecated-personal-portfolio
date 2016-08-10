@@ -1,10 +1,11 @@
-// animacion SVG
+// logo espiral
 @keyframes efecto-stroke-dashoffset {
   100% {
   stroke-dashoffset: 0;
   }
 }
 
+// decir sentir pensar hacer
 @keyframes anim {
 	0% {background-position: 0 0}
 	100% {background-position: -120em 0}
