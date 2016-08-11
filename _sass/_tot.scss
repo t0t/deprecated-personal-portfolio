@@ -1,7 +1,7 @@
 @mixin size($size) {
 	width: 20em;
 	height: 20em;
-	animation: anim .7s steps(6) infinite;
+	animation: anim 1s steps(6) infinite;
 	background-size: 120em 100%;
   font-size: #{$size}px;
 }
@@ -72,22 +72,20 @@
     border-radius: 50%;
   }
 
+// Espiral
 .Tcia-logo {
   text-align: center;
   margin-bottom: $spacing-unit;
 
   svg {
-
     path {
       fill: none;
       stroke: $brand-color;
-      stroke-width: 2;
+      stroke-width: 3;
       stroke-dashoffset: 1100;
       stroke-dasharray: 1100;
     }
-
   }
-
 }
 
 .efecto--stroke-dashoffset {

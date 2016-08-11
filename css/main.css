@@ -604,8 +604,8 @@ section {
   background: url("/images/anim_decir.svg") 0 0 no-repeat;
   width: 20em;
   height: 20em;
-  -webkit-animation: anim 0.7s steps(6) infinite;
-          animation: anim 0.7s steps(6) infinite;
+  -webkit-animation: anim 1s steps(6) infinite;
+          animation: anim 1s steps(6) infinite;
   background-size: 120em 100%;
   font-size: 10px; }
 
@@ -613,8 +613,8 @@ section {
   background: url("/images/anim_sentir.svg") 0 0 no-repeat;
   width: 20em;
   height: 20em;
-  -webkit-animation: anim 0.7s steps(6) infinite;
-          animation: anim 0.7s steps(6) infinite;
+  -webkit-animation: anim 1s steps(6) infinite;
+          animation: anim 1s steps(6) infinite;
   background-size: 120em 100%;
   font-size: 10px; }
 
@@ -622,8 +622,8 @@ section {
   background: url("/images/anim_pensar.svg") 0 0 no-repeat;
   width: 20em;
   height: 20em;
-  -webkit-animation: anim 0.7s steps(6) infinite;
-          animation: anim 0.7s steps(6) infinite;
+  -webkit-animation: anim 1s steps(6) infinite;
+          animation: anim 1s steps(6) infinite;
   background-size: 120em 100%;
   font-size: 10px; }
 
@@ -631,8 +631,8 @@ section {
   background: url("/images/anim_hacer.svg") 0 0 no-repeat;
   width: 20em;
   height: 20em;
-  -webkit-animation: anim 0.7s steps(6) infinite;
-          animation: anim 0.7s steps(6) infinite;
+  -webkit-animation: anim 1s steps(6) infinite;
+          animation: anim 1s steps(6) infinite;
   background-size: 120em 100%;
   font-size: 10px; }
 
@@ -674,7 +674,7 @@ section {
   .Tcia-logo svg path {
     fill: none;
     stroke: blue;
-    stroke-width: 2;
+    stroke-width: 3;
     stroke-dashoffset: 1100;
     stroke-dasharray: 1100; }
 
