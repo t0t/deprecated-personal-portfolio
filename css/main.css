@@ -607,7 +607,7 @@ section {
   -webkit-animation: anim 0.7s steps(6) infinite;
           animation: anim 0.7s steps(6) infinite;
   background-size: 120em 100%;
-  font-size: 15px; }
+  font-size: 10px; }
 
 .Dsph__sentir {
   background: url("/images/anim_sentir.svg") 0 0 no-repeat;
@@ -616,7 +616,7 @@ section {
   -webkit-animation: anim 0.7s steps(6) infinite;
           animation: anim 0.7s steps(6) infinite;
   background-size: 120em 100%;
-  font-size: 15px; }
+  font-size: 10px; }
 
 .Dsph__pensar {
   background: url("/images/anim_pensar.svg") 0 0 no-repeat;
@@ -625,7 +625,7 @@ section {
   -webkit-animation: anim 0.7s steps(6) infinite;
           animation: anim 0.7s steps(6) infinite;
   background-size: 120em 100%;
-  font-size: 15px; }
+  font-size: 10px; }
 
 .Dsph__hacer {
   background: url("/images/anim_hacer.svg") 0 0 no-repeat;
@@ -634,7 +634,7 @@ section {
   -webkit-animation: anim 0.7s steps(6) infinite;
           animation: anim 0.7s steps(6) infinite;
   background-size: 120em 100%;
-  font-size: 15px; }
+  font-size: 10px; }
 
 .Tot {
   width: 200px;

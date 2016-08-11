@@ -24,22 +24,22 @@
 
 .Dsph__decir {
 	background: url("/images/anim_decir.svg") 0 0 no-repeat;
-  @include size(15);
+  @include size(10);
 }
 
 .Dsph__sentir {
 	background: url("/images/anim_sentir.svg") 0 0 no-repeat;
-  @include size(15);
+  @include size(10);
 }
 
 .Dsph__pensar {
   background: url("/images/anim_pensar.svg") 0 0 no-repeat;
-	@include size(15);
+	@include size(10);
 }
 
 .Dsph__hacer {
 	background: url("/images/anim_hacer.svg") 0 0 no-repeat;
-  @include size(15);
+  @include size(10);
 }
 
 
