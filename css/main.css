@@ -21,7 +21,8 @@ body {
   -webkit-font-kerning: normal;
      -moz-font-kerning: normal;
           font-kerning: normal;
-  padding-top: 100px; }
+  padding-top: 100px;
+  letter-spacing: 1px; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -190,21 +191,29 @@ input[type="submit"] {
  */
 .site-header {
   top: 0;
-  position: fixed;
-  width: 100%;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  position: fixed;
+  width: 100%;
   -ms-flex-align: center;
       align-items: center;
   min-height: 75px; }
+  .site-header svg path {
+    fill: none;
+    stroke: blue;
+    stroke-width: 2;
+    stroke-dashoffset: 50;
+    stroke-dasharray: 50; }
 
 .site-title {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.25;
   margin-bottom: 50px; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: blue; }
 
 .site-nav {
   margin-right: 25px; }
@@ -333,7 +342,7 @@ section {
 
 .active {
   padding-bottom: 2px;
-  border-bottom: 1px solid black; }
+  border-bottom: 2px solid blue; }
 
 @-webkit-keyframes efecto-stroke-dashoffset {
   100% {
@@ -528,6 +537,22 @@ section {
     padding-left: 25px;
     width: 25px;
     height: 25px; }
+  .brand__title {
+    font-weight: bold;
+    font-size: 18px; }
+  .brand .efecto--stroke-logo {
+    -webkit-animation-name: efecto-stroke-dashoffset;
+            animation-name: efecto-stroke-dashoffset;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-duration: 9s;
+            animation-duration: 9s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
 
 .Cover {
   display: -ms-flexbox;
@@ -675,8 +700,8 @@ section {
     fill: none;
     stroke: blue;
     stroke-width: 3;
-    stroke-dashoffset: 1100;
-    stroke-dasharray: 1100; }
+    stroke-dashoffset: 500;
+    stroke-dasharray: 500; }
 
 .efecto--stroke-dashoffset {
   -webkit-animation-name: efecto-stroke-dashoffset;

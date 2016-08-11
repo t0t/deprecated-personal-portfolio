@@ -3,21 +3,31 @@
  */
 .site-header {
   top: 0;
+  display: flex;
+  justify-content: center;
   position: fixed;
   width: 100%;
-  display: flex;
   align-items: center;
   min-height: 75px;
+  svg {
+    path {
+      fill: none;
+      stroke: $brand-color;
+      stroke-width: 2;
+      stroke-dashoffset: 50;
+      stroke-dasharray: 50;
+    }
+  }
 }
 
 .site-title {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.25;
   margin-bottom: $spacing-unit * 2;
     &,
     &:visited {
-        color: $color-grey-dark;
+      color: $brand-color;
     }
 }
 

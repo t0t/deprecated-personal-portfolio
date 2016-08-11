@@ -21,7 +21,8 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    padding-top: $spacing-unit*4;
+    padding-top: $spacing-unit * 4;
+    letter-spacing: 1px;
 }
 
 

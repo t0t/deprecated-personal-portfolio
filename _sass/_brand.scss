@@ -7,4 +7,17 @@
     width: $spacing-unit;
     height: $spacing-unit;
   }
+
+  &__title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .efecto--stroke-logo {
+    animation-name: efecto-stroke-dashoffset;
+    animation-delay: 0s;
+    animation-duration: 9s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
 }

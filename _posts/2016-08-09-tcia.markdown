@@ -6,9 +6,18 @@ categories: tcia
 description: TCIA decir, sentir, pensar y hacer en coherencia
 ---
 
-{% include cover.html %}
+
 
 <section>
+  <header>
+    {% include espirales-tcia.html %}
+    <h1 class="site-title">
+    TCIA: Transmitir Creatividad con Inteligencia en la Acción.
+    </h1>
+
+  </header>
+
+
 
     <h2>Desobviando lo obvio</h2>
 
@@ -70,8 +79,12 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
       <li class="Card__item">
 
         <h1 class="Card-title">
+        <div class="Dsph__item">
+        <span class="Dsph__decir"></span>
+        </div>
           Decir
         </h1>
+
 
         <h2 class="Card-subtitle">
           TRANSMITIR. Storytelling. La semilla, Ésto, Pronunciar. Preguntar. Nombrar. Reconocer. Ser consciente. Integrar. Validar. Identidad. Presentar. El tema. Comunicar. Feedback. La tribu...
@@ -98,6 +111,9 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
       <li class="Card__item">
 
         <h1 class="Card-title">
+        <div class="Dsph__item">
+          <span class="Dsph__sentir"></span>
+        </div>
           Sentir
         </h1>
 
@@ -128,6 +144,9 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
       <li class="Card__item">
 
         <h1 class="Card-title">
+          <div class="Dsph__item">
+            <span class="Dsph__pensar"></span>
+          </div>
           Pensar
         </h1>
 
@@ -156,6 +175,9 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
       <li class="Card__item">
 
         <h1 class="Card-title">
+          <div class="Dsph__item">
+            <span class="Dsph__hacer"></span>
+          </div>
           Hacer
         </h1>
         <h2 class="Card-subtitle">
