@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TCIA"
+title:  "TCIA, qué es y cómo nace"
 date:   2016-07-21 16:01:18 +0200
 categories: tcia
 description: TCIA decir, sentir, pensar y hacer en coherencia
@@ -9,15 +9,8 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
 
 <section>
-  <header>
-    {% include espirales-tcia.html %}
-    <h1 class="site-title">
-    TCIA: Transmitir Creatividad con Inteligencia en la Acción.
-    </h1>
 
-  </header>
-
-
+  {% include espirales-tcia.html %}
 
     <h2>Desobviando lo obvio</h2>
 
@@ -43,8 +36,6 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
     <p>Todo lo que pudiera yo imaginar encontraba abrigo en alguna de esas 4 nubes de palabras, fueron ellas solas autoorganizándose en una unidad con cuatro partes esenciales: Decir, Sentir, Pensar y Hacer. Al conectar con el decir también había conectado con el lugar que ello ocupa dentro de algo mucho más grande.</p>
 
-    <h2>¿Qué es TCIA?</h2>
-
     <blockquote>
       “My life seemed to be a series of events and accidents. Yet when I look back I see a pattern.”
       Benoit Mandelbrot
@@ -54,31 +45,18 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
     <p>Afortunadamente no es imprescindible ser un genio para conectar con la fuente de la creación, ni saber de cuántica, ni de física, ni de filosofía, disciplinas en las que soy un auténtico negado... sólo requerimos estar presentes y alerta, ser testigos de 4 fenómenos que están ocurriendo todo el tiempo.</p>
 
-    <p>Ser <i>ocurrente</i> no es más que dejar espacio para que <i>ocurra</i> lo que ya está ocurriendo. La creación, la evolución, lo nuevo, fluye como energía, <i>transcurre</i> en tí, en tus actos, en lo que produces. TCIA es <i>alinearte</i> con el proceso, no <i>alienarte</i>. Formas parte de la creación, ¿cómo no vas a crear?, es imposible no hacerlo. ¿Quieres ser original? ve al origen.</p>
+    <p>Ser <i>ocurrente</i> no es más que dejar espacio para que <i>ocurra</i> lo que ya está ocurriendo. La creación, la evolución, lo nuevo, fluye como energía, <i>transcurre</i> en tí, en tus actos, en lo que produces. <abbr title="Transmisión Creativa Inteligente en Acción">TCIA</abbr> es <i>alinearte</i> con el proceso, no <i>alienarte</i>. Formas parte de la creación, ¿cómo no vas a crear?, es imposible no hacerlo. ¿Quieres ser original? ve al origen.</p>
 
-    <p>TCIA es ir a la estructura misma de lo que es correcto; Decir, sentir, pensar y hacer cíclicamente y en coherencia.</p>
 
-    <dl>
-      <dt>Minimanifiesto TCIA</dt>
-      <dd>Todo és, ahora, aquí, ya.</dd>
-      <dd>Todo está en sus partes. Patrón fractal.</dd>
-      <dd>Itera: di, siente, piensa y haz por igual.</dd>
-      <dd>Todo es incierto. Abraza el error.</dd>
-      <dd>Todo es proceso, flujo.</dd>
-      <dd>Todo es relación. Sinapsis.</dd>
-      <dd>Todo inteligente, está vivo y tiende al equilibrio. Autoorganización.</dd>
-      <dd>Todo es cíclico. Actualizate.</dd>
-    </dl>
+    <!-- <div class="Tot"><div class="Tot__pointer"></div></div> -->
 
-    <div class="Tot"><div class="Tot__pointer"></div></div>
-
-    <h2>Veamos los cuatro nodos de un ciclo</h2>
+    <h2 class="site-title">Los cuatro estados cíclicos</h2>
 
     <ul class="Card">
 
       <li class="Card__item">
 
-        <h1 class="Card-title">
+        <h1 class="Card-title site-title">
         <div class="Dsph__item">
         <span class="Dsph__decir"></span>
         </div>
@@ -110,7 +88,7 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
       <li class="Card__item">
 
-        <h1 class="Card-title">
+        <h1 class="Card-title site-title">
         <div class="Dsph__item">
           <span class="Dsph__sentir"></span>
         </div>
@@ -143,7 +121,7 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
       <li class="Card__item">
 
-        <h1 class="Card-title">
+        <h1 class="Card-title site-title">
           <div class="Dsph__item">
             <span class="Dsph__pensar"></span>
           </div>
@@ -174,7 +152,7 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
       <li class="Card__item">
 
-        <h1 class="Card-title">
+        <h1 class="Card-title site-title">
           <div class="Dsph__item">
             <span class="Dsph__hacer"></span>
           </div>

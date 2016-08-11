@@ -87,7 +87,7 @@ a {
   a:hover {
     color: black; }
 
-p, dl, h5, h4, h3, h2 {
+p, h5, h4, h3, h2 {
   max-width: 650px;
   margin-right: auto;
   margin-left: auto;
@@ -95,13 +95,11 @@ p, dl, h5, h4, h3, h2 {
   padding-right: 25px; }
 
 dl {
-  padding: 25px;
-  border: 1px solid blue; }
+  padding-bottom: 25px; }
 
 dt {
   margin-top: 25px;
-  margin-bottom: 12.5px;
-  font-weight: bold; }
+  margin-bottom: 12.5px; }
   dt:first-child {
     margin-top: 0; }
 
@@ -109,7 +107,9 @@ dd {
   display: list-item;
   list-style-type: circle;
   list-style-position: inside;
-  line-height: 1.8; }
+  padding-bottom: 15px; }
+  dd:last-child {
+    padding-bottom: 0; }
 
 /**
  * Blockquotes
@@ -161,7 +161,7 @@ abbr[title], acronym[title] {
  */
 textarea,
 input {
-  border: none;
+  border: 2px solid #e06c75;
   font-size: 18px;
   padding: 15px; }
 
@@ -174,8 +174,8 @@ input[type="submit"] {
   padding: 12.5px; }
   input[type="submit"]:hover {
     cursor: pointer;
-    background-color: black;
-    color: #e06c75; }
+    background-color: blue;
+    color: white; }
 
 /**
  * Clearfix
@@ -546,8 +546,8 @@ section {
             animation-name: efecto-stroke-dashoffset;
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
-    -webkit-animation-duration: 9s;
-            animation-duration: 9s;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
     -webkit-animation-iteration-count: 1;
             animation-iteration-count: 1;
     -webkit-animation-timing-function: ease;
@@ -599,8 +599,8 @@ section {
   .Card-title {
     -ms-flex: 1 100%;
         flex: 1 100%;
-    font-weight: bold;
-    margin-bottom: 12.5px; }
+    margin-bottom: 12.5px;
+    text-transform: uppercase; }
   .Card-subtitle {
     color: #828282;
     font-size: 18px;
@@ -611,6 +611,24 @@ section {
   .Card-note {
     -ms-flex: 1 300px;
         flex: 1 300px; }
+  .Card dl {
+    padding-bottom: 25px;
+    border: 2px solid blue;
+    border-radius: 2px; }
+  .Card dt {
+    padding: 25px;
+    text-align: center;
+    color: blue;
+    margin-bottom: 12.5px;
+    border-bottom: 2px solid blue; }
+    .Card dt:first-child {
+      margin-top: 0; }
+  .Card dd {
+    display: list-item;
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-right: 25px;
+    padding-left: 25px; }
 
 .Dsph__wrap {
   display: -ms-flexbox;
@@ -720,7 +738,6 @@ section {
 
 .Contact {
   padding: 50px 25px;
-  background-color: #e06c75;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -730,7 +747,7 @@ section {
   -ms-flex-align: center;
       align-items: center; }
   .Contact__title {
-    color: white; }
+    color: blue; }
   .Contact__form {
     max-width: 700px;
     display: -ms-flexbox;
@@ -747,7 +764,8 @@ section {
     -ms-flex: 0 600px;
         flex: 0 600px; }
   .Contact__submit {
-    background-color: #dd5f69; }
+    border: 2px solid blue;
+    background-color: transparent; }
 
 .social ul {
   margin-right: 0; }

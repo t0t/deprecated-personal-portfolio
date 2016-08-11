@@ -1,6 +1,6 @@
 .Contact {
-  padding: ($spacing-unit*2) $spacing-unit;
-  background-color: $color-cool;
+  padding: ($spacing-unit * 2) $spacing-unit;
+  // border: $medio solid $brand-color;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -8,7 +8,7 @@
 
   &__title {
     // flex: 1 100%;
-    color: $color-white;
+    color: $brand-color;
   }
   &__form {
     max-width: 700px;
@@ -23,6 +23,7 @@
   }
   &__submit {
     // flex-basis: 100%;
-    background-color: darken($color-cool, 3);
+    border: $medio solid $brand-color;
+    background-color: transparent;
   }
 }

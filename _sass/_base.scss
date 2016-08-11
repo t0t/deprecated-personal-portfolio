@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
     text-align: center;
 }
-
+h2 {}
 
 
 /**
@@ -118,7 +118,7 @@ a {
 }
 
 // max width
-p, dl, h5, h4, h3, h2 {
+p, h5, h4, h3, h2 {
   max-width: 650px;
   margin-right: auto;
   margin-left: auto;
@@ -127,14 +127,13 @@ p, dl, h5, h4, h3, h2 {
 }
 
 dl {
-  padding: $spacing-unit;
-  border: 1px solid $brand-color;
+  padding-bottom: $spacing-unit;
+  // border-radius: $spacing-unit;
   // list-style: disc;
 }
 dt {
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit / 2;
-  font-weight: bold;
   &:first-child {
     margin-top: 0;
   }
@@ -143,8 +142,11 @@ dd {
   display: list-item;
   list-style-type: circle;
   list-style-position: inside;
-  // padding-left: $spacing-unit / 2;
-  line-height: 1.8;
+  padding-bottom: 15px;
+  // line-height: 1.5;
+  &:last-child {
+    padding-bottom: 0;
+  }
 }
 ul {
   // max-width: 300px;
@@ -213,7 +215,7 @@ pre {
 }
 
 abbr[title], acronym[title] {
-  border-bottom: 1px dotted $color-grey-light;
+  border-bottom: $fino dotted $color-grey-light;
 }
 
 /**
@@ -224,7 +226,7 @@ form {
 }
 textarea,
 input {
-  border: none;
+  border: $medio solid $color-cool;
   font-size: $base-font-size;
   padding: 15px;
 }
@@ -245,8 +247,8 @@ input[type="submit"] {
 
   &:hover {
     cursor: pointer;
-    background-color: $text-color;
-    color: $color-cool;
+    background-color: $brand-color;
+    color: $color-white;
   }
 }
 

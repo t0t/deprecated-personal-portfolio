@@ -19,8 +19,9 @@
 
       &-title {
         flex: 1 100%;
-        font-weight: bold;
+        // font-weight: bold;
         margin-bottom: $spacing-unit / 2;
+        text-transform: uppercase;
       }
       &-subtitle {
         color: $color-grey;
@@ -33,5 +34,32 @@
       &-note {
         // padding-top: $spacing-unit;
         flex: 1 300px;
+      }
+
+      dl {
+        // padding-top: $spacing-unit;
+        padding-bottom: $spacing-unit;
+        border: 2px solid $brand-color;
+        border-radius: 2px;
+        // list-style: disc;
+      }
+      dt {
+        padding: $spacing-unit;
+        text-align: center;
+        color: $brand-color;
+        margin-bottom: $spacing-unit / 2;
+        // font-weight: bold;
+        border-bottom: 2px solid $brand-color;
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+      dd {
+        display: list-item;
+        list-style-type: circle;
+        list-style-position: inside;
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
+        // line-height: 1.8;
       }
 }
