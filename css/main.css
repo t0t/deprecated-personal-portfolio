@@ -21,7 +21,7 @@ body {
   -webkit-font-kerning: normal;
      -moz-font-kerning: normal;
           font-kerning: normal;
-  padding-top: 100px;
+  padding-top: 75px;
   letter-spacing: 1px; }
 
 /**
@@ -208,8 +208,9 @@ input[type="submit"] {
     stroke-dasharray: 50; }
 
 .site-title {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 38px;
+  font-weight: lighter;
+  text-transform: uppercase;
   line-height: 1.25;
   margin-bottom: 50px; }
   .site-title, .site-title:visited {
@@ -533,7 +534,6 @@ section {
   -ms-flex: 1 50%;
       flex: 1 50%; }
   .brand svg {
-    padding-top: 10px;
     padding-left: 25px;
     width: 25px;
     height: 25px; }
