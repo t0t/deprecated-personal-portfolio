@@ -604,8 +604,8 @@ section {
   background: url("/images/anim_decir.svg") 0 0 no-repeat;
   width: 20em;
   height: 20em;
-  -webkit-animation: anim 0.5s steps(6) infinite;
-          animation: anim 0.5s steps(6) infinite;
+  -webkit-animation: anim 0.7s steps(6) infinite;
+          animation: anim 0.7s steps(6) infinite;
   background-size: 120em 100%;
   font-size: 15px; }
 
@@ -613,8 +613,8 @@ section {
   background: url("/images/anim_sentir.svg") 0 0 no-repeat;
   width: 20em;
   height: 20em;
-  -webkit-animation: anim 0.5s steps(6) infinite;
-          animation: anim 0.5s steps(6) infinite;
+  -webkit-animation: anim 0.7s steps(6) infinite;
+          animation: anim 0.7s steps(6) infinite;
   background-size: 120em 100%;
   font-size: 15px; }
 
@@ -622,8 +622,8 @@ section {
   background: url("/images/anim_pensar.svg") 0 0 no-repeat;
   width: 20em;
   height: 20em;
-  -webkit-animation: anim 0.5s steps(6) infinite;
-          animation: anim 0.5s steps(6) infinite;
+  -webkit-animation: anim 0.7s steps(6) infinite;
+          animation: anim 0.7s steps(6) infinite;
   background-size: 120em 100%;
   font-size: 15px; }
 
@@ -631,8 +631,8 @@ section {
   background: url("/images/anim_hacer.svg") 0 0 no-repeat;
   width: 20em;
   height: 20em;
-  -webkit-animation: anim 0.5s steps(6) infinite;
-          animation: anim 0.5s steps(6) infinite;
+  -webkit-animation: anim 0.7s steps(6) infinite;
+          animation: anim 0.7s steps(6) infinite;
   background-size: 120em 100%;
   font-size: 15px; }
 
