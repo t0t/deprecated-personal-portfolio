@@ -599,8 +599,7 @@ section {
   .Card-title {
     -ms-flex: 1 100%;
         flex: 1 100%;
-    margin-bottom: 12.5px;
-    text-transform: uppercase; }
+    margin-bottom: 12.5px; }
   .Card-subtitle {
     color: #828282;
     font-size: 18px;
@@ -640,7 +639,12 @@ section {
   margin-bottom: 25px; }
 
 .Dsph__item {
-  text-align: center; }
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   .Dsph__item span {
     display: inline-block; }
 

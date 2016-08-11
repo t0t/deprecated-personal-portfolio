@@ -14,8 +14,9 @@
 }
 
 .Dsph__item {
-	text-align: center;
-  // background-color: $color-cool;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	span {
 		display: inline-block;
     // background-color: darken($color-cool, 1);

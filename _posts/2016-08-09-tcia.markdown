@@ -58,9 +58,8 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
         <h1 class="Card-title site-title">
         <div class="Dsph__item">
-        <span class="Dsph__decir"></span>
+        <span class="Dsph__decir"></span> Decir
         </div>
-          Decir
         </h1>
 
 
@@ -90,9 +89,8 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
         <h1 class="Card-title site-title">
         <div class="Dsph__item">
-          <span class="Dsph__sentir"></span>
+          <span class="Dsph__sentir"></span> Sentir
         </div>
-          Sentir
         </h1>
 
         <h2 class="Card-subtitle">
@@ -123,9 +121,8 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
         <h1 class="Card-title site-title">
           <div class="Dsph__item">
-            <span class="Dsph__pensar"></span>
+            <span class="Dsph__pensar"></span> Pensar
           </div>
-          Pensar
         </h1>
 
         <h2 class="Card-subtitle">
@@ -154,9 +151,9 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
         <h1 class="Card-title site-title">
           <div class="Dsph__item">
-            <span class="Dsph__hacer"></span>
+            <span class="Dsph__hacer"></span> Hacer
           </div>
-          Hacer
+
         </h1>
         <h2 class="Card-subtitle">
           ACCIÓN. La solución. El Ésto Correcto. Lo pragmático. Eficacia. Ejecutar. Ya!. Lo concreto. Sentido. Materia. El Objeto. Lo nuevo. Resultado. El Chiste. Comprensión. El hecho. Medir. Refinar. Utilidad. Subsistencia. Realidad. Aplicación. Contacto. La verdad. El Cambio...
