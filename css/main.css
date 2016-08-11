@@ -87,7 +87,7 @@ a {
   a:hover {
     color: black; }
 
-p, dl, h5, h4, h3, h2, h1 {
+p, dl, h5, h4, h3, h2 {
   max-width: 650px;
   margin-right: auto;
   margin-left: auto;
@@ -115,8 +115,8 @@ dd {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 25px solid #e8e8e8;
+  color: blue;
+  border-left: 3px solid blue;
   padding-left: 25px;
   font-size: 18px;
   max-width: 490px;
@@ -152,6 +152,9 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+abbr[title], acronym[title] {
+  border-bottom: 1px dotted #e8e8e8; }
 
 /**
  * Forms
@@ -208,9 +211,7 @@ input[type="submit"] {
     stroke-dasharray: 50; }
 
 .site-title {
-  font-size: 38px;
-  font-weight: lighter;
-  text-transform: uppercase;
+  font-size: 42px;
   line-height: 1.25;
   margin-bottom: 50px; }
   .site-title, .site-title:visited {
@@ -296,7 +297,7 @@ input[type="submit"] {
 section {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #f3f3f3; }
+  background: linear-gradient(to bottom, #f3f3f3, white 15%); }
 
 .section__title {
   text-align: center; }
@@ -618,7 +619,7 @@ section {
       flex-wrap: wrap;
   -ms-flex-pack: center;
       justify-content: center;
-  margin-bottom: 50px; }
+  margin-bottom: 25px; }
 
 .Dsph__item {
   text-align: center; }
@@ -700,8 +701,8 @@ section {
     fill: none;
     stroke: blue;
     stroke-width: 3;
-    stroke-dashoffset: 500;
-    stroke-dasharray: 500; }
+    stroke-dashoffset: 1100;
+    stroke-dasharray: 1100; }
 
 .efecto--stroke-dashoffset {
   -webkit-animation-name: efecto-stroke-dashoffset;

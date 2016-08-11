@@ -10,7 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: $spacing-unit * 2;
+  margin-bottom: $spacing-unit;
 }
 
 .Dsph__item {
@@ -82,8 +82,8 @@
       fill: none;
       stroke: $brand-color;
       stroke-width: 3;
-      stroke-dashoffset: 500;
-      stroke-dasharray: 500;
+      stroke-dashoffset: 1100;
+      stroke-dasharray: 1100;
     }
   }
 }

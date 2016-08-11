@@ -6,8 +6,6 @@ categories: jekyll update proceso
 description: Explicando una web por medio de una web sobre como hago webs (y porqué)
 ---
 
-## Sobre este sitio web
-
 Si, este sitio web es estático y me gusta. Finalmente he escogido Jekyll. Lo estoy haciendo artesanalmente, disfrutando de cada línea de código, de cada significado que escribo. Fluyendo fácil en la forma pero fondeando fuerte por el fondo.
 
 ¿Qué tipo de predicador sería si no cumpliera lo que predico? Aplico TCIA en mi sitio web desde el principio y... the show must go on!

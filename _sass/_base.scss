@@ -118,7 +118,7 @@ a {
 }
 
 // max width
-p, dl, h5, h4, h3, h2, h1 {
+p, dl, h5, h4, h3, h2 {
   max-width: 650px;
   margin-right: auto;
   margin-left: auto;
@@ -157,8 +157,8 @@ ul {
  */
 
 blockquote {
-    color: $color-grey;
-    border-left: $spacing-unit solid $color-grey-light;
+    color: $brand-color;
+    border-left: 3px solid $brand-color;
     padding-left: $spacing-unit;
     font-size: $base-font-size;
     max-width: 490px;
@@ -212,7 +212,9 @@ pre {
     }
 }
 
-
+abbr[title], acronym[title] {
+  border-bottom: 1px dotted $color-grey-light;
+}
 
 /**
  * Forms
