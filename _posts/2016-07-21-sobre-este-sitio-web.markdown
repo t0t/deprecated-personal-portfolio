@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Sobre este sitio web"
+thumbnail:  /images/image1.jpg
 date:   2016-07-21 16:01:18 +0200
 categories: jekyll update proceso
 description: Explicando una web por medio de una web sobre como hago webs (y porqué)

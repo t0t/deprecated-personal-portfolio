@@ -1,13 +1,18 @@
 .brand {
+  display: flex;
   flex: 1 50%;
+  padding-left: $spacing-unit;
 
   svg {
-    // padding-top: 10px;
-    padding-left: $spacing-unit;
-    width: $spacing-unit;
-    height: $spacing-unit;
+    padding-right: $spacing-unit / 2;
+    path {
+      stroke: $text-color;
+      stroke-width: 3;
+    }
   }
-
+  &__logo {
+    background-color: red;
+  }
   &__title {
     font-weight: bold;
     font-size: 18px;

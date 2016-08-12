@@ -149,7 +149,7 @@
  * Page section
  */
 section {
-  padding-top: $spacing-unit * 2;
+  // padding-top: $spacing-unit * 2;
   padding-bottom: $spacing-unit * 2;
   // background-color: #f3f3f3;
   background: linear-gradient(to bottom, #f3f3f3, white 15%);
@@ -173,12 +173,49 @@ section {
 
 .post-list {
     list-style: none;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    // height: 100vh;
+    // color: $color-white;
 
-    > li {
-        // margin-bottom: $spacing-unit;
-        min-height: 200px;
+    &__item {
+      padding: $spacing-unit;
+      flex: 0 300px;
+      width: 300px;
+      height: 300px;
+      border: $medio solid $brand-color;
+      margin: $spacing-unit;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
     }
+      &__title {
+        color: $brand-color;
+        line-height: 1.2;
+        text-align: left;
+        margin-bottom: 0;
+      }
+      &__image {
+        // max-width: 75%;
+        // height: 340px;
+        margin-bottom: 0;
+        margin-top: $spacing-unit;
+        // margin-left: $spacing-unit;
+
+        img {}
+        figcaption {
+          // color: $color-white;
+          max-width: 95%;
+        }
+      }
+      &__description {
+        margin: 0;
+        padding: 0;
+        // position: absolute;
+        // right: $spacing-unit;
+      }
 }
 
 .post-meta {
@@ -188,7 +225,7 @@ section {
 
 .post-link {
     display: block;
-    font-size: 24px;
+    // font-size: 24px;
 }
 
 
@@ -201,13 +238,10 @@ section {
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
+    margin-bottom: $spacing-unit;
+    text-align: left;
     line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
 }
 
 .post-content {

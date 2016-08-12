@@ -58,7 +58,7 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
         <h1 class="Card-title site-title">
         <div class="Dsph__item">
-        <span class="Dsph__decir"></span> Decir
+        <span class="Dsph__decir"></span> decir
         </div>
         </h1>
 
@@ -89,7 +89,7 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
         <h1 class="Card-title site-title">
         <div class="Dsph__item">
-          <span class="Dsph__sentir"></span> Sentir
+          <span class="Dsph__sentir"></span> sentir
         </div>
         </h1>
 
@@ -121,7 +121,7 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
         <h1 class="Card-title site-title">
           <div class="Dsph__item">
-            <span class="Dsph__pensar"></span> Pensar
+            <span class="Dsph__pensar"></span> pensar
           </div>
         </h1>
 
@@ -151,7 +151,7 @@ description: TCIA decir, sentir, pensar y hacer en coherencia
 
         <h1 class="Card-title site-title">
           <div class="Dsph__item">
-            <span class="Dsph__hacer"></span> Hacer
+            <span class="Dsph__hacer"></span> hacer
           </div>
 
         </h1>

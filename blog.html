@@ -6,17 +6,28 @@ permalink: /blog/
 ---
 
 <ul class="post-list">
+
   {% for post in site.posts %}
-    <li>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        {{ post.title }}
-      </a>
-      <span class="post-meta">
-        {{ post.date | slug: "%b %-d, %Y" }}
-      </span>
-      <p>
-        {{ post.description }}
-      </p>
+
+    <li class="post-list__item">
+
+        <h1 class="post-list__title">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.title }}
+            </a>
+        </h1>
+
+        <span class="post-meta">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </span>
+
+        <p class="post-list__description">
+          {{ post.description }}
+        </p>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Leer post</a>
+
     </li>
+
   {% endfor %}
+
 </ul>

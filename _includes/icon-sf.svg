@@ -1,5 +1,5 @@
-<svg width="15" height="25" viewBox="-2 -2 15 25" xmlns="http://www.w3.org/2000/svg">
-  <path class="efecto--stroke-logo" d="M1.5 3.5C4.076 2.672 3.378 0 1.5 0c-1.842 0-2.163 2.83.018 3.507 0 2.15-.018 9.993-.018 9.993H7 1.5V22H12" />
+<svg width="16" height="26" viewBox="-2 -2 16 26" xmlns="http://www.w3.org/2000/svg">
+  <path class="efecto--stroke-logo" d="M1.502 3.5c2.575-.828 1.877-3.5 0-3.5C-.34 0-.66 2.83 1.52 3.507c0 2.15-.018 9.993-.018 9.993h5.5-5.5V22H12" />
 </svg>
 
 <!--
