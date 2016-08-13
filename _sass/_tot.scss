@@ -14,12 +14,14 @@
 }
 
 .Dsph__item {
+	flex: 0 300px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+	text-align: center;
 	span {
 		display: inline-block;
-    // background-color: darken($color-cool, 1);
 	}
 }
 
