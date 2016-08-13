@@ -210,6 +210,7 @@ input[type="submit"] {
 .site-title {
   font-size: 42px;
   line-height: 1.25;
+  padding-top: 50px;
   margin-bottom: 50px; }
   .site-title, .site-title:visited {
     color: blue; }
@@ -350,7 +351,11 @@ section {
   color: #828282; }
 
 .post-link {
-  display: block; }
+  border-bottom-width: 2px;
+  border-bottom-style: solid; }
+  .post-link:hover {
+    border-bottom-color: blue;
+    border-bottom-style: dashed; }
 
 /**
  * Posts
@@ -625,6 +630,8 @@ section {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -ms-flex-align: baseline;
+        align-items: baseline;
     padding: 25px; }
   .Card-title {
     -ms-flex: 1 100%;

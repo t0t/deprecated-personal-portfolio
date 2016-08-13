@@ -4,7 +4,7 @@ title: "La historia de Tot"
 thumbnail:  /images/image1.jpg
 date: 2016-07-21 16:01:18 +0200
 categories: proceso
-description: Aquí iré escribiendo pequeñas cápsulas de storytelling
+description: Aquí iré escribiendo pequeñas cápsulas de storytelling.
 ---
 
 Tot vivía en una vieja mina. Todos los dias cogía sus herramientas y escarbaba en la tierra en busca de cosas valiosas. Todo lo que iba encontrando que mereciese la pena lo guardaba en una oscura sala que había por allí. Así pasaba los días haciendo lo que más le gustaba. Un dia se le ocurrió encender unas cuantas antorchas y vió un inmenso tesoro en el que estaba todo lo que pueda llegar a desearse.

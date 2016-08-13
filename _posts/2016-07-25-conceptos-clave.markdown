@@ -4,7 +4,7 @@ title:  "Conceptos clave"
 thumbnail:  /images/image1.jpg
 date:   2016-07-21 16:01:18 +0200
 categories: proceso
-description: Sinapsis, sinergia, autoorganización, holismo y demás palabros
+description: Sinapsis, sinergia, autoorganización, holismo y demás palabros.
 ---
 
 ### Términos
