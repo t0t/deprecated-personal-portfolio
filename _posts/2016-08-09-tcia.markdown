@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TCIA, qué es y cómo nace"
+title:  "TODH (Transmitir, observar, definir, hacer)"
 date:   2016-07-21 16:01:18 +0200
 categories: tcia
-description: TCIA decir, sentir, pensar y hacer en coherencia.
+description: TODH (Transmitir, observar, definir, hacer.)
 ---
 
 
@@ -30,8 +30,7 @@ description: TCIA decir, sentir, pensar y hacer en coherencia.
     <p>Por fín la puerta de mi casa estaba abierta y yo quería decirlo todo. Empaqueté mis pensamientos, mis sentimientos y las cosas que había hecho en mi vida en palabras y esas palabras se fueron metiendo ellas solas en bolsas. Era pura sinapsis en movimiento. Pura creación desde un lugar hasta entonces inexplorado por mí, quizás por ser demasiado evidente.</p>
 
     <figure class="Figure-small">
-      <img src="/images/patron.png" alt="Boceto TCIA">
-      <figcaption class="Figure-caption-h">Escribía una palabra y ella se colocaba sola en el grupo donde resonaba mejor.</figcaption>
+      <img src="/images/patron.png" alt="Boceto TODH (Transmitir, observar, definir, hacer)"Escribía una palabra y ella se colocaba sola en el grupo donde resonaba mejor.</figcaption>
     </figure>
 
     <p>Todo lo que pudiera yo imaginar encontraba abrigo en alguna de esas 4 nubes de palabras, fueron ellas solas autoorganizándose en una unidad con cuatro partes esenciales: Decir, Sentir, Pensar y Hacer. Al conectar con el decir también había conectado con el lugar que ello ocupa dentro de algo mucho más grande.</p>
@@ -45,7 +44,7 @@ description: TCIA decir, sentir, pensar y hacer en coherencia.
 
     <p>Afortunadamente no es imprescindible ser un genio para conectar con la fuente de la creación, ni saber de cuántica, ni de física, ni de filosofía, disciplinas en las que soy un auténtico negado... sólo requerimos estar presentes y alerta, ser testigos de 4 fenómenos que están ocurriendo todo el tiempo.</p>
 
-    <p>Ser <i>ocurrente</i> no es más que dejar espacio para que <i>ocurra</i> lo que ya está ocurriendo. La creación, la evolución, lo nuevo, fluye como energía, <i>transcurre</i> en tí, en tus actos, en lo que produces. <abbr title="Transmisión Creativa Inteligente en Acción">TCIA</abbr> es <i>alinearte</i> con el proceso, no <i>alienarte</i>. Formas parte de la creación, ¿cómo no vas a crear?, es imposible no hacerlo. ¿Quieres ser original? ve al origen.</p>
+    <p>Ser <i>ocurrente</i> no es más que dejar espacio para que <i>ocurra</i> lo que ya está ocurriendo. La creación, la evolución, lo nuevo, fluye como energía, <i>transcurre</i> en tí, en tus actos, en lo que produces. <abbr title="Transmisión Creativa Inteligente en Acción">TODH (Transmitir, observar, definir, hacer)"e</i>. Formas parte de la creación, ¿cómo no vas a crear?, es imposible no hacerlo. ¿Quieres ser original? ve al origen.</p>
 
 
     <!-- <div class="Tot"><div class="Tot__pointer"></div></div> -->
