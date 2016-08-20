@@ -8,6 +8,7 @@ description: TODH (Transmitir, observar, definir, hacer.)
 
 
 
+<section>
 
   {% include espirales-tcia.html %}
 
@@ -22,7 +23,7 @@ description: TODH (Transmitir, observar, definir, hacer.)
       Rollo May
     </blockquote>
 
-    <p>Algo así me pasó a los 40 años tras un proceso de autoconocimiento con el <a href="https://es.wikipedia.org/wiki/Eneagrama_de_la_personalidad" target="_blank">Eneagrama</a> en el que descubrí lo importante que es saber hablar y lo poco y mal que lo había hecho hasta entonces. Qué maravilloso potencial se me estaba desvelando, qué cosa más común y obvia! De repente podía contarle a alguien cómo percibo el mundo o qué cosas he aprendido. Eso es inmenso, el poder decir nos hace todopoderosos, así que tomé un lápiz y un papel por si acaso decía algo con algún sentido.</p>
+    <p>Algo así me pasó a los 40 años tras un proceso de autoconocimiento con el <a href="https://es.wikipedia.org/wiki/Eneagrama_de_la_personalidad" target="_new">Eneagrama</a> en el que descubrí lo importante que es saber hablar y lo poco y mal que lo había hecho hasta entonces. Qué maravilloso potencial se me estaba desvelando, qué cosa más común y obvia! De repente podía contarle a alguien cómo percibo el mundo o qué cosas he aprendido. Eso es inmenso, el poder decir nos hace todopoderosos, así que tomé un lápiz y un papel por si acaso decía algo con algún sentido.</p>
 
     <h2>Conectando con "el decir"</h2>
 
@@ -184,6 +185,6 @@ description: TODH (Transmitir, observar, definir, hacer.)
 
     <p>Del dicho al hecho <i>había</i> antes  un trecho, pero ya no. La sociedad ha cambiado, los clientes han cambiado, la tecnología no para de cambiar, las profesiones también son distintas. Del dicho al hecho no hay trecho si prototipamos, validamos, buscamos feedback, contamos historias que aporten valor y empaticen con las personas. Porque se necesita muy poco para llegar al mundo, para empezar en pequeño, para tropezar suave y volver a empezar hasta conseguirlo y crecer.</p>
 
-
+</section>
 
 {% include contact.html %}
