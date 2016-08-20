@@ -2,7 +2,7 @@
 layout: post
 title:  "TODH (Transmitir, observar, definir, hacer)"
 date:   2016-07-21 16:01:18 +0200
-categories: tcia
+categories: todh
 description: TODH (Transmitir, observar, definir, hacer.)
 ---
 
