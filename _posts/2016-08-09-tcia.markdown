@@ -185,6 +185,5 @@ description: TODH (Transmitir, observar, definir, hacer.)
 
     <p>Del dicho al hecho <i>había</i> antes  un trecho, pero ya no. La sociedad ha cambiado, los clientes han cambiado, la tecnología no para de cambiar, las profesiones también son distintas. Del dicho al hecho no hay trecho si prototipamos, validamos, buscamos feedback, contamos historias que aporten valor y empaticen con las personas. Porque se necesita muy poco para llegar al mundo, para empezar en pequeño, para tropezar suave y volver a empezar hasta conseguirlo y crecer.</p>
 
-</section>
 
 {% include contact.html %}
