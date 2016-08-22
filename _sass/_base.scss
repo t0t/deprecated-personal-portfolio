@@ -15,10 +15,6 @@ body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     // background-color: $color-cool;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
     padding-top: 75px;
@@ -82,6 +78,7 @@ ul, ol {
 }
 
 li {
+  margin-bottom: 10px;
     > ul,
     > ol {
          margin-bottom: 0;
@@ -223,6 +220,12 @@ abbr[title], acronym[title] {
  */
 form {
   // display: inherit;
+  input:first-child {
+    margin-right: $spacing-unit;
+    @media screen and (max-width: 580px) {
+      margin-bottom: $spacing-unit;
+    }
+  }
 }
 textarea,
 input {

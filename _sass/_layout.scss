@@ -177,8 +177,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    // height: 100vh;
-    // color: $color-white;
+    // margin-bottom: $spacing-unit;
 
     &__item {
       padding: $spacing-unit;
@@ -187,7 +186,7 @@ section {
       height: 300px;
       border: $medio solid $brand-color;
       margin: $spacing-unit;
-      display: flex;
+      // display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
@@ -196,7 +195,7 @@ section {
         color: $brand-color;
         line-height: 1.2;
         text-align: left;
-        margin-bottom: 0;
+        // margin-bottom: 0;
       }
       &__image {
         // max-width: 75%;
