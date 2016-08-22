@@ -1,3 +1,3 @@
 console.log('sss');
-let a = 'aaaaaa';
+const a = '9';
 console.log(a);

@@ -9,9 +9,13 @@ var gulp        = require('gulp'),
     uglify      = require('gulp-uglify'),
     ghPages     = require('gulp-gh-pages');
 // var browserify = require('gulp-browserify');
-    // autoprefixer = require('gulp-autoprefixer');
 
-// var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+
+
+// DEV
+
+
+
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
@@ -24,15 +28,6 @@ gulp.task('jekyll-dev', function (done) {
   browserSync.notify(messages.jekyllDev);
   return cp.spawn('jekyll', ['build', '--drafts', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
  .on('close', done);
-});
-
-/**
- * Build the Jekyll Site
- */
-gulp.task('jekyll-build', function (done) {
-    browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
-        .on('close', done);
 });
 
 /**
@@ -84,6 +79,18 @@ gulp.task('watch', function () {
     gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
+
+
+
+
+
+
+
+
+// PROD
+
+
+
 // Build the Jekyll Site in production mode
 gulp.task('jekyll-prod', function (done) {
   browserSync.notify(messages.jekyllProd);
@@ -106,17 +113,17 @@ gulp.task('sass-prod', function () {
 
 // Identical Javascript compilation task to development mode, with an additional minification step thrown in using uglify
 gulp.task('scripts-prod', function() {
-  return gulp.src(['_js/*.js'])
-  .pipe(concat('scripts.js'))
+  return gulp.src(['js/*.js'])
   .pipe(uglify())
   .pipe(gulp.dest('_site/js'))
-  .pipe(gulp.dest('_js'));;
 });
+
+
 
 /**
  * Deploy to gh-pages
  */
-gulp.task('deploy', ['jekyll-build'], function() {
+gulp.task('deploy', function() {
     return gulp.src('./_site/**/*')
         .pipe(ghPages());
 });
