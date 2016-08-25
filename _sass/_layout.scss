@@ -22,8 +22,8 @@
 }
 
 .page-title {
-  padding-top: $spacing-unit;
-  font-size: 24px;
+  padding-top: $spacing-unit * 2;
+  margin-bottom: $spacing-unit;
 }
 
 .site-title {
@@ -47,7 +47,11 @@
       // font-weight: bold;
       text-transform: uppercase;
       margin: 0 10px;
+      &:hover {
+        color: $color-white;
+      }
     }
+
   }
 
   .page-link {
@@ -158,8 +162,7 @@
  * Page section
  */
 section {
-  // padding-top: $spacing-unit * 2;
-  // padding-bottom: $spacing-unit * 2;
+
   background-color: $color-white;
   // background: linear-gradient(to bottom, #f3f3f3, white 15%);
 }
@@ -203,7 +206,7 @@ section {
         color: $brand-color;
         line-height: 1.2;
         text-align: left;
-        // margin-bottom: 0;
+        margin-bottom: $spacing-unit;
       }
       &__image {
         // max-width: 75%;

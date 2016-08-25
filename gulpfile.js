@@ -118,18 +118,23 @@ gulp.task('scripts-prod', function() {
   .pipe(gulp.dest('_site/js'))
 });
 
-
-
-/**
- * Deploy to gh-pages
- */
-gulp.task('deploy', function() {
-    return gulp.src('./_site/**/*')
-        .pipe(ghPages());
+// put CNAME
+gulp.task('cname', function() {
+  return gulp.src(['CNAME'])
+  .pipe(gulp.dest('_site'))
 });
+
+
+
 
 // Dev
 gulp.task('default', ['browser-sync', 'watch']);
 
 // Production
 gulp.task('build', ['scripts-prod', 'sass-prod', 'jekyll-prod']);
+
+// Deploy
+gulp.task('deploy', ['cname'], function() {
+  return gulp.src('./_site/**/*')
+  .pipe(ghPages());
+});

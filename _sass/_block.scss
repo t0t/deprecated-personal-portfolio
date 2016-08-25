@@ -8,17 +8,15 @@
   min-height: 550px;
 
   &__split {
-    flex: 1 50%;
+    flex: 1 375px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
   &__title {
-   margin-top: 0;
-   font-size: 16px;
-   font-weight: 800;
-   text-transform: uppercase;
+   margin-top: $spacing-unit;
+
    line-height: 1.25;
   //  padding-top: $spacing-unit * 2;
    margin-bottom: $spacing-unit;
@@ -26,15 +24,19 @@
 
   &__subtitle {
     flex: 0 100%;
-    font-family: $alt-font-family;
-    font-size: 24px;
-    max-width: 1100px;
     margin-left: $spacing-unit;
     margin-right: $spacing-unit;
   }
 
   &--quiensoy {
 
+  }
+
+  &--quehago {
+    background-image: url("/images/bg-hago.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   &--quehago,
@@ -48,12 +50,15 @@
     flex-direction: inherit;
 
     &__image {
-      width: 550px;
-      height: 550px;
+      height: 375px;
       background-color: $color-cool;
       background-image: url("/images/todh-grafico.svg");
       background-repeat: no-repeat;
       background-position: center;
+      @media screen and (min-width: 376px ) {
+        width: 550px;
+        height: 550px;
+      }
     }
   }
   &--contacto {
