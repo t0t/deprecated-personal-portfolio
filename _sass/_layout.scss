@@ -8,7 +8,8 @@
   position: fixed;
   width: 100%;
   align-items: center;
-  min-height: 75px;
+  min-height: 100px;
+
   svg {
     path {
       fill: none;
@@ -20,21 +21,20 @@
   }
 }
 
+.page-title {
+  padding-top: $spacing-unit;
+  font-size: 24px;
+}
+
 .site-title {
-  font-size: 42px;
-  // font-weight: lighter;
-  // text-transform: uppercase;
-  line-height: 1.25;
-  padding-top: $spacing-unit * 2;
-  margin-bottom: $spacing-unit * 2;
-    &,
-    &:visited {
-      color: $brand-color;
-    }
+
+}
+
+.site-subtitle {
+
 }
 
 .site-nav {
-
   // flex: 1 50%;
   margin-right: $spacing-unit;
 
@@ -44,6 +44,9 @@
 
   .trigger {
     a {
+      font-size: 12px;
+      // font-weight: bold;
+      text-transform: uppercase;
       margin: 0 10px;
     }
   }
@@ -118,9 +121,15 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  background-color: $color-cool;
   justify-content: space-around;
-  padding-top: $spacing-unit;
-  padding-bottom: $spacing-unit;
+  // padding-top: $spacing-unit;
+  // padding-bottom: $spacing-unit;
+
+  a {
+    color: $brand-color;
+    border-bottom: $medio solid $brand-color;
+  }
 
   ul {
     list-style: none;
@@ -151,11 +160,11 @@
  */
 section {
   // padding-top: $spacing-unit * 2;
-  padding-bottom: $spacing-unit * 2;
-  // background-color: #f3f3f3;
-  background: linear-gradient(to bottom, #f3f3f3, white 15%);
-
+  // padding-bottom: $spacing-unit * 2;
+  background-color: $color-white;
+  // background: linear-gradient(to bottom, #f3f3f3, white 15%);
 }
+
 .section__title {
   text-align: center;
   // padding-bottom: $spacing-unit * 2;

@@ -1,0 +1,23 @@
+.btn {
+  &-cta {
+    width: 150px;
+    padding: $spacing-unit / 2;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: $color-cool;
+    border: $grueso solid $brand-color;
+    letter-spacing: 1px;
+    // font-weight: bold;
+    // width: 300px;
+    // margin-left: 0;
+    // margin-right: 0;
+  }
+  &-cta:visited {
+    background-color: $color-cool;
+    color: $brand-color;
+  }
+  &-cta:hover {
+    color: $color-white;
+  }
+}

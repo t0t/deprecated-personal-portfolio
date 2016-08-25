@@ -1,20 +1,16 @@
 .Contact {
-  padding: ($spacing-unit * 2) $spacing-unit;
-  // border: $medio solid $brand-color;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  // padding: ($spacing-unit * 2) $spacing-unit;
+  // // border: $medio solid $brand-color;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-around;
+  // align-items: center;
 
-  &__title {
-    // flex: 1 100%;
-    color: $brand-color;
-  }
   &__form {
     max-width: 700px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex: 0 100%;
   }
@@ -23,7 +19,7 @@
   }
   &__submit {
     // flex-basis: 100%;
-    border: $medio solid $brand-color;
+    // border: $medio solid $brand-color;
     background-color: transparent;
   }
 }

@@ -3,7 +3,8 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', sans-serif;
+$alt-font-family: 'Playfair Display', serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -11,10 +12,11 @@ $base-line-height: 1.7;
 
 $spacing-unit:     25px;
 
-$background-color: #fdfdfd;
-$text-color:       rgb(0,0,0);
-$brand-color:      rgb(170,200,170);
-$color-cool:      rgb(224,108,117);
+$background-color: rgb(183,131,109);
+$text-color:       rgb(74,56,81);
+$color-cool:      rgb(129,232,179);
+$brand-color:      rgb(74,56,81);
+// $color-cool:      rgb(224,108,117);
 $color-white:      rgb(255,255,255);
 
 $color-grey:       #828282;
@@ -45,6 +47,7 @@ $extra: 10px;
         "base",
         "layout",
         "navigation",
+        "buttons",
         "animation",
         "syntax-highlighting",
         "brand",
@@ -53,5 +56,6 @@ $extra: 10px;
         "card",
         "tot",
         "contacto",
-        "social"
+        "social",
+        "block"
 ;
