@@ -26,7 +26,7 @@ $color-grey-dark:  darken($color-grey, 25%);
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          600px;
+$mobil:          425px;
 $on-laptop:        800px;
 
 // Grosores
@@ -35,10 +35,10 @@ $medio: 2px;
 $grueso: 3px;
 $extra: 10px;
 
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@mixin media-query( $device ) {
+  @media screen and ( max-width: $device ) {
+    @content;
+  }
 }
 
 

@@ -242,9 +242,9 @@ form {
   // display: inherit;
   input:first-child {
     margin-right: $spacing-unit;
-    @media screen and (min-width: 376px) {
-      margin-bottom: $spacing-unit;
-    }
+  }
+  input {
+    width: 30%;
   }
 }
 textarea,
@@ -257,7 +257,8 @@ input {
   letter-spacing: 1px;
   padding: 15px;
   color: $color-white;
-  @media screen and (max-width: 374px) {
+
+  @include media-query($mobil) {
     width: 150px;
   }
 }
@@ -265,7 +266,7 @@ input {
 textarea {
   min-height: 100px;
   margin-top: $spacing-unit;
-  @media screen and (max-width: 375px) {
+  @include media-query($mobil) {
     margin-left: $spacing-unit;
     margin-right: $spacing-unit;
   }

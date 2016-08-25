@@ -3,20 +3,32 @@
   flex: 0;
   padding-left: $spacing-unit;
 
+  a {
+    height: 26px;
+  }
+
   svg {
-    padding-right: $spacing-unit / 2;
+    // padding-right: $spacing-unit / 2;
     path {
+      fill: none;
+      stroke: $brand-color;
+      stroke-width: 2;
+      stroke-dashoffset: 50;
+      stroke-dasharray: 50;
       stroke: $color-cool;
       stroke-width: 3;
     }
   }
+
   &__logo {
     background-color: red;
   }
+
   &__title {
     font-weight: bold;
     font-size: 18px;
   }
+
   .efecto--stroke-logo {
     animation-name: efecto-stroke-dashoffset;
     animation-delay: 0s;

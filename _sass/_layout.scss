@@ -2,22 +2,21 @@
  * Site header
  */
 .site-header {
-  top: 0;
   display: flex;
-  justify-content: center;
-  position: fixed;
+  justify-content: space-between;
   width: 100%;
   align-items: center;
-  min-height: 100px;
+  height: 100px;
+  top: 0;
+  position: fixed;
+  background-color: $brand-color;
+  transition-property: height;
+  transition-duration: .3s;
 
-  svg {
-    path {
-      fill: none;
-      stroke: $brand-color;
-      stroke-width: 2;
-      stroke-dashoffset: 50;
-      stroke-dasharray: 50;
-    }
+  &.sticky {
+    height: 50px;
+    transition-property: height;
+    transition-duration: 1s;
   }
 }
 
@@ -33,6 +32,8 @@
 
 }
 
+
+// Main nav
 .site-nav {
   // flex: 1 50%;
   margin-right: $spacing-unit;
@@ -44,7 +45,6 @@
   .trigger {
     a {
       font-size: 12px;
-      // font-weight: bold;
       text-transform: uppercase;
       margin: 0 10px;
       &:hover {
@@ -63,14 +63,11 @@
       }
   }
 
-  @include media-query($on-palm) {
+  @include media-query($mobil) {
         position: absolute;
-        top: 9px;
+        top: $spacing-unit / 2;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $color-grey-light;
-        border-radius: 5px;
-        text-align: right;
+        background-color: transparent;
 
         .menu-icon {
             display: block;
@@ -82,34 +79,34 @@
             text-align: center;
 
             > svg {
-                width: 18px;
-                height: 15px;
+              width: 18px;
+              height: 15px;
 
-                path {
-                    fill: $color-grey-dark;
-                }
+              path {
+                fill: $color-cool;
+              }
             }
         }
 
         .trigger {
-            clear: both;
-            display: none;
+          clear: both;
+          display: none;
         }
 
         &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-            cursor: pointer;
+          display: block;
+          padding-bottom: 5px;
+          cursor: pointer;
         }
 
         .page-link {
-            display: block;
-            padding: 5px 10px;
+          display: block;
+          padding: 5px 10px;
 
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
+          &:not(:last-child) {
+              margin-right: 0;
+          }
+          margin-left: 20px;
         }
     }
 }
@@ -151,12 +148,6 @@
 }
 
 
-
-@include media-query($on-laptop) {
-}
-
-@include media-query($on-palm) {
-}
 
 /**
  * Page section
