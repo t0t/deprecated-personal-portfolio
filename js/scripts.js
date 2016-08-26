@@ -1,13 +1,13 @@
 var Obj = {
-  circle: new Array(4),
-  radius: 350,
-  noise: 500,
-  speed: 1,
-  size: 400,
+  circle: new Array(3),
+  radius: 1003,
+  noise: 100,
+  speed: .1,
+  size: 10000,
 
   //color a = background color; color b = object color
   color: {
-    a: 'rgba(255, 255, 255, .5)',
+    a: 'rgb(255, 255, 255)',
     b: 'rgb(129, 232, 179)'
   },
   //X & Y positions
