@@ -1,7 +1,7 @@
 var Obj = {
-  circle: new Array(3),
-  radius: 1003,
-  noise: 100,
+  circle: new Array(1),
+  radius: 200,
+  noise: 50,
   speed: .1,
   size: 10000,
 
