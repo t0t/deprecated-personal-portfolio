@@ -315,3 +315,10 @@ input[type="submit"] {
         }
     }
 }
+
+
+canvas {
+  position:absolute;
+  // z-index: 0;
+  transform:translateZ(1);
+}
