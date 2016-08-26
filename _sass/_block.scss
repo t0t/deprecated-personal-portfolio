@@ -5,6 +5,9 @@
   align-items: center;
   align-content: center;
   min-height: 450px;
+  z-index: 3;
+  position: relative;
+  overflow: hidden;
 
   @include media-query($mobil) {}
 
@@ -64,6 +67,6 @@
     }
   }
   &--contacto {
-
+    margin-bottom: 100px;
   }
 }

@@ -1,94 +1,96 @@
-var   canvas = document.querySelector('canvas'),
-         ctx = canvas.getContext('2d'),
-   particles = [],
-patriclesNum = 3,
-           w = 500,
-           h = 500,
-      colors = ['#81e8b3','#81e8b3','#81e8b3','#81e8b3','#81e8b3'];
+var Obj = {
+  circle: new Array(4),
+  radius: 350,
+  noise: 500,
+  speed: 1,
+  size: 400,
 
-canvas.width = 400;
-canvas.height = 400;
-canvas.style.left = 0 +'px';
+  //color a = background color; color b = object color
+  color: {
+    a: 'rgba(255, 255, 255, .5)',
+    b: 'rgb(129, 232, 179)'
+  },
+  //X & Y positions
+  X: function(x) {
+    return Obj.c.width / 2 + x;
+  },
 
-if(window.innerHeight > 500)
-  canvas.style.top = 100 +'px';
-
-function Factory(){
-  this.x =  Math.round( Math.random() * w);
-  this.y =  Math.round( Math.random() * h);
-  this.rad = Math.round( Math.random() * 1) + 1;
-  this.rgba = colors[ Math.round( Math.random() * 3) ];
-  this.vx = Math.round( Math.random() * 3) - 1.5;
-  this.vy = Math.round( Math.random() * 3) - 1.5;
-}
-
-function draw(){
-  ctx.clearRect(0, 0, w, h);
-  ctx.globalCompositeOperation = 'lighter';
-  for(var i = 0;i < patriclesNum; i++){
-    var temp = particles[i];
-    var factor = 0.1;
-
-    for(var j = 0; j<patriclesNum; j++){
-
-       var temp2 = particles[j];
-       ctx.linewidth = 0.5;
-
-       if(temp.rgba == temp2.rgba && findDistance(temp, temp2) < 50){
-          ctx.strokeStyle = temp.rgba;
-          ctx.beginPath();
-          ctx.moveTo(temp.x, temp.y);
-          ctx.lineTo(temp2.x, temp2.y);
-          ctx.stroke();
-          factor++;
-       }
+  Y: function(y) {
+    return Obj.c.height / 2 - y;
+  },
+  //behavior
+  Circle: function(i) {
+    this.r = Obj.radius - i * Obj.radius / Obj.circle.length;
+    this.e = i % 2 ? true : false;
+    this.max = Math.random() * Obj.noise;
+    this.min = -Math.random() * Obj.noise;
+    this.val = Math.random() * (this.max - this.min) + this.min;
+  },
+  //clearing
+  Clear: function() {
+    Obj.$.fillStyle = Obj.color.a;
+    Obj.$.fillRect(0, 0, Obj.c.width, Obj.c.height);
+  },
+  //shape changing
+  Change: function(C) {
+    for (var i = 0; i < Obj.size; i++) {
+      var a = i * Math.PI * 2 / Obj.size;
+      var x = Math.cos(a) * (C.r - C.val * Math.cos(i / 4));
+      var y = Math.sin(a) * (C.r - C.val * Math.cos(i / 4));
+      Obj.$.fillStyle = Obj.color.b;
+      Obj.$.fillRect(Obj.X(x), Obj.Y(y), 1, 1);
     }
+    Obj.Check(C);
+  },
+  //noise level checks
+  Check: function(C) {
+    C.val = C.e ? C.val + Obj.speed : C.val - Obj.speed;
+    if (C.val < C.min) {
+      C.e = true;
+      C.max = Math.random() * Obj.noise;
+    }
+    if (C.val > C.max) {
+      C.e = false;
+      C.min = -Math.random() * Obj.noise;
+    }
+  },
+  //update object
+  Update: function() {
+    Obj.Clear();
+    for (var i = 0; i < Obj.circle.length; i++) {
+      Obj.Change(Obj.circle[i]);
+    }
+  },
+  //draw object
+  Draw: function() {
+    Obj.Update();
+    window.requestAnimationFrame(Obj.Draw, Obj.c);
+  },
+  //set circles
+  Set: function() {
+    for (var i = 0; i < Obj.circle.length; i++) {
+      Obj.circle[i] = new Obj.Circle(i);
+    }
+  },
 
-
-    ctx.fillStyle = temp.rgba;
-    ctx.strokeStyle = temp.rgba;
-
-    ctx.beginPath();
-    ctx.arc(temp.x, temp.y, temp.rad*factor, 0, Math.PI*2, true);
-    ctx.fill();
-    ctx.closePath();
-
-    ctx.beginPath();
-    ctx.arc(temp.x, temp.y, (temp.rad+5)*factor, 0, Math.PI*2, true);
-    ctx.stroke();
-    ctx.closePath();
-
-
-    temp.x += temp.vx;
-    temp.y += temp.vy;
-
-    if(temp.x > w)temp.x = 0;
-    if(temp.x < 0)temp.x = w;
-    if(temp.y > h)temp.y = 0;
-    if(temp.y < 0)temp.y = h;
+  //size control
+  Size: function() {
+    Obj.c.width = window.innerWidth;
+    Obj.c.height = window.innerHeight;
+  },
+  //get canvas
+  Run: function() {
+    Obj.c = document.querySelector('canvas');
+    Obj.$ = Obj.c.getContext('2d');
+    window.addEventListener('resize', Obj.size, false);
+  },
+  //start
+  Init: function() {
+    Obj.Run();
+    Obj.Size();
+    Obj.Set();
+    Obj.Draw();
   }
-}
 
-function findDistance(p1,p2){
-  return Math.sqrt( Math.pow(p2.x - p1.x, 2) + Math.pow(p2.y - p1.y, 2) );
-}
-
-window.requestAnimFrame = (function(){
-  return  window.requestAnimationFrame       ||
-          window.webkitRequestAnimationFrame ||
-          window.mozRequestAnimationFrame    ||
-          function( callback ){
-            window.setTimeout(callback, 1000 / 60);
-          };
-})();
-
-(function init(){
-  for(var i = 0; i < patriclesNum; i++){
-    particles.push(new Factory);
-  }
-})();
-
-(function loop(){
-  draw();
-  requestAnimFrame(loop);
-})();
+};
+Obj.Init();

@@ -12,6 +12,7 @@
   background-color: $brand-color;
   transition-property: height;
   transition-duration: .3s;
+  z-index: 100;
 
   &.sticky {
     height: 50px;
@@ -116,16 +117,16 @@
  * Site footer
  */
 .site-footer {
-
   height: 100px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   background-color: $color-cool;
   justify-content: space-around;
-  // padding-top: $spacing-unit;
-  // padding-bottom: $spacing-unit;
-
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
   a {
     color: $brand-color;
     border-bottom: $medio solid $brand-color;
