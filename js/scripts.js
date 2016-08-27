@@ -1,11 +1,11 @@
-var canvas = document.getElementById('myCanvas');
-var context = canvas.getContext('2d');
-context.beginPath();
-context.moveTo(0, 0);
-context.lineTo(500, 500);
-context.lineWidth = 1;
-context.strokeStyle = 'rgb(129, 232, 179)';
-context.stroke();
+// var canvas = document.getElementById('myCanvas');
+// var context = canvas.getContext('2d');
+// context.beginPath();
+// context.moveTo(0, 0);
+// context.lineTo(500, 500);
+// context.lineWidth = 1;
+// context.strokeStyle = 'rgb(129, 232, 179)';
+// context.stroke();
 
 // function animatedBSpline(context, points, t) {
 //
