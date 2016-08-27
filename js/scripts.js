@@ -1,3 +1,46 @@
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+context.beginPath();
+context.moveTo(0, 0);
+context.lineTo(500, 500);
+context.lineWidth = 1;
+context.strokeStyle = 'rgb(129, 232, 179)';
+context.stroke();
+
+// function animatedBSpline(context, points, t) {
+//
+//   // Draw curve segment
+//   var ax = (-points[0].x + 3 * points[1].x - 3 * points[2].x + points[3].x) / 6;
+//   var ay = (-points[0].y + 3 * points[1].y - 3 * points[2].y + points[3].y) / 6;
+//   var bx = (points[0].x - 2 * points[1].x + points[2].x) / 2;
+//   var by = (points[0].y - 2 * points[1].y + points[2].y) / 2;
+//   var cx = (-points[0].x + points[2].x) / 2;
+//   var cy = (-points[0].y + points[2].y) / 2;
+//   var dx = (points[0].x + 4 * points[1].x + points[2].x) / 6;
+//   var dy = (points[0].y + 4 * points[1].y + points[2].y) / 6;
+//   context.beginPath();
+//   context.moveTo(
+//     ax * Math.pow(t, 3) + bx * Math.pow(t, 2) + cx * t + dx,
+//     ay * Math.pow(t, 3) + by * Math.pow(t, 2) + cy * t + dy
+//   );
+//   context.lineTo(
+//     ax * Math.pow(t + 0.1, 3) + bx * Math.pow(t + 0.1, 2) + cx * (t + 0.1) + dx,
+//     ay * Math.pow(t + 0.1, 3) + by * Math.pow(t + 0.1, 2) + cy * (t + 0.1) + dy
+//   );
+//   context.stroke();
+//
+//   // Keep going until t = 1
+//   if (t < 1) requestAnimationFrame(function() {
+//     animatedBSpline(context, points, t + 0.1);
+//   });
+// }
+//
+// // Kick things off at t = 0
+// animatedBSpline(context, points, 0);
+
+
+
+
 // var Obj = {
 //   circle: new Array(1),
 //   radius: 200,
@@ -95,19 +138,6 @@
 // };
 // Obj.Init();
 
-window.addEventListener( "scroll", stikyHeader );
-
-function stikyHeader () {
-  var x = window.scrollY;
-  var header = document.querySelectorAll('.site-header')[0];
-  if (x > 50) {
-    header.className='site-header sticky';
-  } else {
-    header.className='site-header';
-  }
-}
-
-
 // // Btn toggle
 // var btnToggle = document.getElementById('btnToggle');
 // var turn = true;
@@ -139,3 +169,16 @@ function stikyHeader () {
 // }
 //
 // sticky();
+
+
+function stikyHeader () {
+  var x = window.scrollY;
+  var header = document.querySelectorAll('.site-header')[0];
+  if (x > 50) {
+    header.classList.add('sticky');
+  } else {
+    header.classList.remove('sticky');
+  }
+}
+
+window.addEventListener( "scroll", stikyHeader );
