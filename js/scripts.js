@@ -170,16 +170,14 @@
 //
 // sticky();
 
-var elMenu = document.querySelectorAll('.menu-icon')[0];
-var elBody = document.getElementsByTagName('body')[0];
+let elMenu = document.querySelectorAll('.menu-icon')[0];
+let elBody = document.getElementsByTagName('body')[0];
 
 function openMenu () {
-  console.log( elMenu );
-  console.log( elBody );
   elBody.classList.toggle('overlay');
 }
 
-elMenu.addEventListener( 'click', openMenu );
+elMenu.addEventListener ( 'click', openMenu );
 
 
 var header = document.querySelectorAll('.site-header')[0];
