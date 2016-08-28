@@ -170,10 +170,22 @@
 //
 // sticky();
 
+var elMenu = document.querySelectorAll('.menu-icon')[0];
+var elBody = document.getElementsByTagName('body')[0];
+
+function openMenu () {
+  console.log( elMenu );
+  console.log( elBody );
+  elBody.classList.toggle('overlay');
+}
+
+elMenu.addEventListener( 'click', openMenu );
+
+
+var header = document.querySelectorAll('.site-header')[0];
 
 function stikyHeader () {
   var x = window.scrollY;
-  var header = document.querySelectorAll('.site-header')[0];
   if (x > 50) {
     header.classList.add('sticky');
   } else {
