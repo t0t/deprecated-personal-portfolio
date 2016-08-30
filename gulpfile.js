@@ -3,12 +3,13 @@ var gulp        = require('gulp'),
     sass        = require('gulp-sass'),
     prefix      = require('gulp-autoprefixer'),
     cp          = require('child_process'),
-    sourcemaps = require('gulp-sourcemaps'),
+    sourcemaps  = require('gulp-sourcemaps'),
     cssnano     = require('gulp-cssnano'),
     concat      = require('gulp-concat'),
     uglify      = require('gulp-uglify'),
     ghPages     = require('gulp-gh-pages');
-// var browserify = require('gulp-browserify');
+    // babelify    = require('babelify'),
+    // browserify  = require('browserify');
 
 
 

@@ -5,4 +5,4 @@ function openMenu () {
   elBody.classList.toggle('overlay');
 }
 
-elMenu.addEventListener ( 'click', openMenu );
+elMenu.addEventListener('click', openMenu);
