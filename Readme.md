@@ -1,4 +1,4 @@
-# My site on development
+# Personal site
 
 Sergio Forés
 
@@ -12,6 +12,5 @@ Sergio Forés
 
 - [ ] Registrar t-o-h-d.com
 
-# Enfoques que me gustan
-
-- http://www.a-l-a-a.com/
+# CMS
+- Forestry => http://forestry.io
