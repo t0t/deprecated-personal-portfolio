@@ -21,7 +21,6 @@
   position: relative;
   overflow: hidden;
 
-  @include media-query($mobil) {}
 
   @media screen and (min-width: $mobil) {
     min-height: 550px;
@@ -45,6 +44,12 @@
     margin-left: $spacing-unit;
     margin-right: $spacing-unit;
     margin-bottom: $spacing-unit;
+
+    @media screen and (min-width: 1200px) {
+      margin-left: $spacing-unit * 10;
+      margin-right: $spacing-unit * 10;
+      min-width: 1150px;
+    }
   }
 
   &--quiensoy {  }

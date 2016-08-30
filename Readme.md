@@ -2,11 +2,13 @@
 
 Sergio Forés
 
+
 # todo
+- [x] Añadido slider http://flickity.metafizzy.co/
 
-- [ ] Añadir evento document.onScroll para que desaparezca el nombre al bajar scroll
+- [ ] Implementar Lazyload y bg-Lazyload (dan error)
 
-- [ ] Hacer animacion en el logo lenta, muy lentita
+- [x] Hacer animacion en el logo lenta, muy lentita
 
 - [ ] Registrar t-o-h-d.com
 
