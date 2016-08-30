@@ -1,7 +1,12 @@
 # Personal site
 
-Sergio Forés
+# Feature list
 
+- formspree
+- sass
+- gulp
+- jekyll
+- npm
 
 # todo
 - [x] Añadido slider http://flickity.metafizzy.co/
