@@ -10,8 +10,9 @@
   <title>Qué hago</title>
   <meta name="description" content="Desarrollador y diseñador de proyectos">
 
-  <link rel="stylesheet" href="/css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800|Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="../bower_components/flickity/css/flickity.css" media="screen" />
   <link rel="canonical" href="http://sergiofores.es/blog/">
 </head>
 
@@ -79,11 +80,33 @@ viejo logo sf
     <h1 class="site-title">Qué hago</h1>
   </header> -->
 
-  <h1 class="page-title">
+  <!-- <h1 class="page-title">
   El producto es el proceso
-</h1>
+</h1> -->
 
-<h2>Este espacio está concebido como un proceso TODH de manera que las publicaciones no tienen fecha, son un proceso en desarrollo permanente. Aquí iré contando todo; lo que siento, lo que pienso y lo que hago.</h2>
+<!-- <h2>Este espacio está concebido como un proceso TODH de manera que las publicaciones no tienen fecha, son un proceso en desarrollo permanente. Aquí iré contando todo; lo que siento, lo que pienso y lo que hago.</h2> -->
+
+<ul class="carousel carousel--trabajos"
+    data-flickity='{
+      "prevNextButtons": true,
+      "pageDots": false,
+      "adaptiveHeight": true,
+      "autoPlay": 3000
+    }'>
+
+  <li class="carousel-cell">
+    <img src="../images/energyfruits.jpg" alt="" />
+  </li>
+
+  <li class="carousel-cell">
+    <img src="../images/maderlim.png" alt="" />
+  </li>
+  
+  <li class="carousel-cell">
+    <img src="../images/nanosigegants.png" alt="" />
+  </li>
+
+</ul>
 
 <ul class="post-list">
 
@@ -272,6 +295,10 @@ viejo logo sf
 
 </footer>
 
+<script src="/bower_components/flickity-bg-lazyload/bg-lazyload.js"></script>
+<script src="/bower_components/flickity/js/lazyload.js"></script>
+<!-- <script src="/bower_components/flickity/js/flickity.js"></script> -->
+<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
 <script src="/js/scripts.js"></script>
 
 
