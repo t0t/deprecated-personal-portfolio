@@ -6,4 +6,4 @@ thumbnail: "/images/image1.jpg"
 categories: proceso
 description: test
 ---
-Vamos a profundizar en lo que es obvio, vamos a ver lo que ya vemos pero que no vemos.
+Vamos a profundizar en lo que es obvio, vamos a ver lo que ya vemos pero que no vemos...
