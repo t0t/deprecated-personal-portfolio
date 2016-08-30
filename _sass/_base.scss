@@ -19,6 +19,12 @@ body {
     font-kerning: normal;
     padding-top: 100px;
     letter-spacing: 1px;
+
+    @include media-query($mobil) {
+      &.overlay {
+        overflow: hidden;
+      }
+    }
 }
 
 
@@ -110,7 +116,7 @@ h1 {
 h2 {
   font-size: 18px;
   font-weight: 400;
-  @media screen and (min-width: 376px ) {
+  @media screen and (min-width: 500px ) {
     font-size: 24px;
   }
 }

@@ -1,16 +1,3 @@
-window.addEventListener( "scroll", stikyHeader );
-
-function stikyHeader () {
-  var x = window.scrollY;
-  var header = document.querySelectorAll('.site-header')[0];
-  if (x > 50) {
-    header.className='site-header sticky';
-  } else {
-    header.className='site-header';
-  }
-}
-
-
 // // Btn toggle
 // var btnToggle = document.getElementById('btnToggle');
 // var turn = true;

@@ -6,7 +6,8 @@
   li {
     margin-left: $spacing-unit / 2;
     margin-right: $spacing-unit / 2;
-    @media screen and (max-width: 375px ) {
+
+    @media screen and (max-width: 560px ) {
       font-size: 12px;
       margin-left: $spacing-unit / 4;
       margin-right: $spacing-unit / 4;
