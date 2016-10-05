@@ -1,7 +1,12 @@
-# My site on development
+# Personal site
 
-Sergio Forés
+# Feature list
 
+- formspree
+- sass
+- gulp
+- jekyll
+- npm
 
 # todo
 - [x] Añadido slider http://flickity.metafizzy.co/
@@ -12,6 +17,5 @@ Sergio Forés
 
 - [ ] Registrar t-o-h-d.com
 
-# Enfoques que me gustan
-
-- http://www.a-l-a-a.com/
+# CMS
+- Forestry => http://forestry.io
